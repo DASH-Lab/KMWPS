@@ -1,6 +1,5 @@
 from prerequisite import *
 
-
 # -- utils --#
 def sent_to_idx2(voc, sent, max_length, flag=0):
     if flag == 0:
