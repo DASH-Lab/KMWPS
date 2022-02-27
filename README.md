@@ -2,9 +2,9 @@
 Korean-Math-Word-Problem-Solver
 
 # Training
-'''
+```
 python main.py --mode train --batch-size 32 --epochs 500 --embedding bert --model <model_path>
-'''
+```
 
 
 #  Question type
