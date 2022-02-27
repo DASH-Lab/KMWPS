@@ -1,11 +1,12 @@
 # KMWPS
 Korean-Math-Word-Problem-Solver
 
-# Training
+# Scripts
+## Training
 ```
 python main.py --mode train --batch-size 32 --epochs 500 --embedding bert --model <model_path>
 ```
-# Inference
+## Inference
 ```
 python inference.py --model <model_path> --output <output_path>
 
