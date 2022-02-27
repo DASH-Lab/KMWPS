@@ -5,6 +5,15 @@ Korean-Math-Word-Problem-Solver
 ```
 python main.py --mode train --batch-size 32 --epochs 500 --embedding bert --model <model_path>
 ```
+# Inference
+```
+python inference.py --model <model_path> --output <output_path>
+
+# output file format will be:
+# pred : <inference result>
+# true : <ground truth equation>
+# results : True if pred == true else False
+```
 
 
 #  Question type
@@ -83,3 +92,13 @@ python main.py --mode train --batch-size 32 --epochs 500 --embedding bert --mode
       -> 지민이는 초콜릿을 35개 가지고 있습니다. 동생은 22개를 가지고 있습니다. 지민이는 4개를 동생에게 주었습니다. 지민이에게 남은 초콜릿은 몇 개일까요?
      
 
+# Performance
+|Model|Accuracy (%)|Parameters|
+|:---:|:------:|:--------:|
+|BERT|66.44|120,002,996
+|RoBERTa|87.46|135,166,388
+|KoBigBird|83.48|124,274,612
+|DistilKoBERT|72.83|38,324,660
+|KoBERT|81.94|102,707,636
+|KoELECTRA|84.07|122,851,508
+KLUE-RoBERTa-large|78.28|135,166,388
