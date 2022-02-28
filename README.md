@@ -95,7 +95,7 @@ python inference.py --model <model_path> --output <output_path>
 
 # Performance
 
-Model|Accuracy (%)|Distill Accuracy (%)|parameters|latency
+|Model|Accuracy (%)|Distill Accuracy (%)|Parameters|Latency
 |:---:|:---------:|:------------------:|:--------:|:-----:|
 |RoBERTa-large|88.57|-|365,880,500|28.68629408|
 |BERT|66.44|68.23|120,002,996|19.99315524|
