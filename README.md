@@ -94,16 +94,16 @@ python inference.py --model <model_path> --output <output_path>
      
 
 # Performance
-
-|Model|Accuracy (%)|Distill Accuracy (%)|Parameters|Latency
-|:---:|:---------:|:------------------:|:--------:|:-----:|
-|RoBERTa-large|88.57|-|365,880,500|28.68629408|
-|BERT|66.44|68.23|120,002,996|19.99315524|
-|RoBERTa|87.46|88.12|135,189,443|22.1483016|
-|KoBigBird|83.48|83.42|124,274,612|19.54561329|
-|KoBERT|81.94|83.54|102,707,636|19.40512538|
-|KoELECTRA|84.07|85.14|122,851,508|20.04265118|
-|KLUE-RoBERTa-small|74.65|75.69|78,634,691|16.82931662|
-|KLUE-RoBERTa-large|78.28|79.32|347,200,195|22.09713149|
-|DistilRoBERTa|77.98|78.19|92,639,156|20.37763381|
-DistilKoBERT|72.83|74.8|38,324,660|17.74914956|
+Model|Accuracy (%)|Distill Accuracy (%)|Parameters|Latency (s)
+|:---:|:---------:|:------------------:|:--------:|:------:|
+RoBERTa-large|88.57|-|365M|5.1227
+BERT|66.44|68.23|120M|1.3944
+RoBERTa|87.46|88.12|135M|11.9412
+KoBigBird|83.48|83.42|124M|1.8514
+KoBERT|81.94|83.54|102M|2.4598
+KoELECTRA|84.07|85.14|122M|1.7786
+KLUE-RoBERTa-small|74.65|75.69|78M|0.3329
+KLUE-RoBERTa-large|78.28|79.32|347M|3.5587
+KLUE-RoBERTa-base|76.12|78.09|121M|1.0442
+DistilRoBERTa|77.98|78.19|92M|2.8494
+DistilKoBERT|72.83|74.8|38M|1.5282
