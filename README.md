@@ -3,10 +3,12 @@ Korean-Math-Word-Problem-Solver
 
 # Scripts
 ## Training
+### in develop/
 ```
 python main.py --mode train --batch-size 32 --epochs 500 --embedding bert --model <model_path>
 ```
 ## Inference
+### in develop/
 ```
 python inference.py --model <model_path> --output <output_path>
 
