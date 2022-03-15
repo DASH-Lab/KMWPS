@@ -9,7 +9,7 @@ def gpu_init_pytorch(gpu_num):
         Returns:
             device (torch.device): GPU device
     '''
-    device = torch.device("cuda".format(gpu_num) if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     #torch.cuda.set_device(device)
     # 태준수정
     #device = torch.device("cuda" if torch.cuda.is_available() else 'cpu')
@@ -18,7 +18,7 @@ def gpu_init_pytorch(gpu_num):
 
 def create_save_directories(path):
     if not os.path.exists(path):
-        print("notice: directory doesn't exist")
+        print("notice: directory doesn't exist => Making Directory...")
         os.makedirs(path)
 
 
@@ -108,7 +108,6 @@ class Voc1:
         return self.id2w[idx]
 
     def create_vocab_dict(self, args, train_dataloader):
-        print(next(iter(train_dataloader)))
         for data in train_dataloader:
             for sent in data['ques']:
                 self.add_sent(sent)

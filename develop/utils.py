@@ -1,6 +1,30 @@
 from prerequisite import *
+from functools import wraps
+import errno
+import os
+import signal
 
 # -- utils --#
+def timeout(seconds=10, error_message=os.strerror(errno.ETIME)):
+    def decorator(func):
+        def _handle_timeout(signum, frame):
+            raise TimeoutError(error_message)
+
+        def wrapper(*args, **kwargs):
+            signal.signal(signal.SIGALRM, _handle_timeout)
+            signal.setitimer(signal.ITIMER_REAL,seconds) #used timer instead of alarm
+            try:
+                result = func(*args, **kwargs)
+            finally:
+                signal.alarm(0)
+            return result
+        return wraps(func)(wrapper)
+    return decorator
+
+@timeout(1)
+def eval_string(string):
+    return eval(string)
+
 def sent_to_idx2(voc, sent, max_length, flag=0):
     if flag == 0:
         idx_vec = []
@@ -83,9 +107,8 @@ def idx_to_sents(voc, tensors, no_eos=False):
 
 
 def pad_seq(seq, max_length, voc):
-    seq += [voc.get_id('</s>') for i in range(max_length - len(seq))]
+    seq += [voc.get_id('</s>') for _ in range(max_length - len(seq))]
     return seq
-
 
 def sort_by_len(seqs, input_len, device=None, dim=1):
     orig_idx = list(range(seqs.size(dim)))
@@ -124,8 +147,8 @@ def process_batch(sent1s, sent2s, voc1, voc2, device):
     sent2s_padded = [pad_seq(s, max_length_2, voc2) for s in sent2s]
 
     # Convert to [Max_len X Batch]
-    sent1_var = Variable(torch.LongTensor(sent1s_padded)).transpose(0, 1)
-    sent2_var = Variable(torch.LongTensor(sent2s_padded)).transpose(0, 1)
+    sent1_var = torch.LongTensor(sent1s_padded).transpose(0, 1)
+    sent2_var = torch.LongTensor(sent2s_padded).transpose(0, 1)
 
     sent1_var = sent1_var.to(device)
     sent2_var = sent2_var.to(device)
@@ -197,8 +220,8 @@ def cal_score3(outputs, nums, ans):
         try:
             try:  # round로 내보내기 # '3+1' 을 바로 exec하면 아무값도 return안됨.. print를 해야함
 
-                round(eval(op), 2)  # temp, for verify
-                op2 = round(float(eval(op)), 2)  # "print(" + round(eval(op), 2) + ")"
+                round(eval_string(op), 2)  # temp, for verify
+                op2 = round(float(eval_string(op)), 2)  # "print(" + round(eval(op), 2) + ")"
                 pred = str(op2)  # print값은 return이 안됨...
 
             except ValueError:  # string이면 그대로 내보내기(factorial, comb인 경우가 있음)
@@ -256,21 +279,25 @@ def cal_score(outputs, nums, ans, names):
             op = re.sub(f'number{n}', j, op)
         for n, j in enumerate(name):
             op = re.sub(f'name{n}', j, op)
-
+        #print(f"finished here / op: {op}\nans:{answer}")
         # try:
         try:  # round로 내보내기 # '3+1' 을 바로 exec하면 아무값도 return안됨.. print를 해야함
             # 만약, op가 string이라면 다음으로 넘어갈것임
-            op2 = round(float(eval(op)), 2)
+            op2 = round(float(eval_string(op)), 2)
             pred = str(op2)  # print값은 return이 안됨...
+            #print(f"first pred (no error) = {pred}")
 
         except ValueError:  # string이면 그대로 내보내기(factorial, comb인 경우가 있음)
             try:  # 여기서 또 3C-20 이런경우가 생김..
-                pred = eval(op)
+                pred = eval_string(op)
+                #print(f"first pred (first error) = {pred}")
             except:  # k must be a non-negative integer
                 pred = str('no Answer')
+                #print(f"first pred (second error) = {pred}")
 
         except:  # TypeError : # nontype일 경우가 있네
             pred = str('no Answer')
+            #print(f"first pred (third error) = {pred}")
 
         #         except IndexError: # 내생각에 인덱싱하는 코드를 예측하는데 그부분에서 나는 에러같음
         #             pred = str('no Answer')
@@ -290,14 +317,17 @@ def cal_score(outputs, nums, ans, names):
         # answer
         try:
             #             print('just answer:',answer)
-            answer = str(round(float(eval(answer)), 2))
+            answer = str(round(float(eval_string(answer)), 2))
+            #print(f"first answer (no error) = {answer}")
         except ValueError:
+            #print(f"first answer (first error) = {answer}")
             pass
         except NameError:
+            #print(f"first answer (second error) = {answer}")
             pass
         except TypeError:  # F 같은걸 eval하면, 함수 F를 불러오게됨..
+            #print(f"first answer (third error) = {answer}")
             pass
-
         #         print('answer score: ',answer)
         #         print('predict score:', pred)
         if pred == answer:

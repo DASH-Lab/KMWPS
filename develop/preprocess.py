@@ -142,7 +142,7 @@ def func1(a):
 def func2(x):
     """question에서 -+는 빼고 가져와야함.. 안그러면 numbers가 + or -가 되버림"""
     p = re.compile('[0-9]+/[0-9]+|[0-9]*\.[0-9]+|[0-9]+')
-    m = p.findall(x);
+    m = p.findall(x)
     string = ''
     for i in m:
         string += i + ' '
@@ -239,14 +239,18 @@ def pp(tp):
 # tp['fold'] = 0
 # for n, (t_idx, v_idx) in enumerate(kf.split(tp)):
 #     tp.loc[(v_idx), 'fold'] = n
-def start():
-    test = pd.read_csv('./test.csv')
-    test = test.rename(columns={'question': 'Question', 'equation': 'Equation', 'answer': 'Answer'})
+def start(path, final_path):
+    if os.path.exists(final_path):
+        test = pd.read_csv(final_path)
+        tp = test.copy()
+    else:
+        test = pd.read_csv(path)
+        test = test.rename(columns={'question': 'Question', 'equation': 'Equation', 'answer': 'Answer'})
+        test = pp(test) # 정제된 dataframe
+        
+        test.to_csv(final_path, index=False) # 정제된 dataframe을 저장
+        tp = pd.read_csv(final_path)
 
-    test = pp(test)
-    test.to_csv("./final_v3.csv", index=False)
-
-    tp = pd.read_csv('./final_v3.csv')
     tp = tp.drop(['Question', 'Equation', 'comment'], 1)
     tp = tp.rename(columns={'Question2': 'Question', 'Equation2': 'Equation', 'answer': 'Answer'})
     tp['Numbers'] = tp['Numbers'].astype('str')

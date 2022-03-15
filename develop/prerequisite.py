@@ -51,6 +51,10 @@ from konlpy.tag import Kkma
 from sklearn.model_selection import KFold
 
 # transformer model
+from transformers import BertConfig, BertForPreTraining
 from transformers import AdamW
-from transformers import BertModel, BertTokenizer, RobertaModel, RobertaTokenizer
+from transformers import BertModel, BertTokenizer, RobertaModel, RobertaTokenizer, DistilBertModel, ElectraModel, ElectraTokenizer, AutoModel, AutoTokenizer
+from tokenization_hanbert import HanBertTokenizer
+from tokenization_kobert import KoBertTokenizer
+
 okt = Okt()

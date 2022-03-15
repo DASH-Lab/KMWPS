@@ -4,7 +4,7 @@ from preprocess import *
 
 class TextDataset(Dataset):
     def __init__(self, test, tp, data_path='./data/', datatype='train', max_length=30, is_train=False):
-        if datatype == 'train':
+        """if datatype == 'train':
             file_df = tp.copy()
             # file_df = file_df[file_df['fold']!=1].reset_index(drop=True)
 
@@ -13,7 +13,8 @@ class TextDataset(Dataset):
             # file_df = file_df[file_df['fold']==1].reset_index(drop=True)
 
             file_df = test.copy()
-            # file_df = pd.read_csv('./test.csv'')
+            # file_df = pd.read_csv('./test.csv'')"""
+        file_df = tp.copy()
 
         self.ques = file_df['Question'].values  # np ndarray of size (#examples,)
         self.eqn = file_df['Equation'].values
@@ -48,7 +49,7 @@ class TextDataset(Dataset):
         return {'ques': self.curb_to_length(ques), 'eqn': self.curb_to_length(eqn), 'nums': nums, 'ans': ans,
                 'names': names}
 
-    def curb_to_length(self, string):
+    def curb_to_length(self, string): # max_length로 짜르는 함수
         # todo : set tokenizer(kobert or konlpy)
         return ' '.join(string.strip().split()[:self.max_length])
 
@@ -76,15 +77,16 @@ def load_data(config):
     '''
     data_path = "./"
     print("Getting test.csv & tp...")
-    test, tp = start()
+    test, test_tp = start("./test.csv", "./final_v3.csv")
+    train, train_tp = start("./train.csv", "./final_train_v3.csv")
 
     if config.mode == 'train':
         print('Loading Training Data...')
 
         '''Load Datasets'''
-        train_set = TextDataset(test, tp, data_path=data_path,
+        train_set = TextDataset(train, train_tp, data_path=data_path,
                                 datatype='train', max_length=config.max_length, is_train=True)
-        val_set = TextDataset(test, tp, data_path=data_path,
+        val_set = TextDataset(test, test_tp, data_path=data_path,
                               datatype='dev', max_length=config.max_length)
 
         '''In case of sort by length, write a different case with shuffle=False '''

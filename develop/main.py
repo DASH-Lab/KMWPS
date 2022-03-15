@@ -22,9 +22,9 @@ class config:
     lr = 1e-4
     emb_lr = 1e-5
     batch_size = 32
-    epochs = 2  # 500
-    embedding = 'bert'  # 'bert'#'bert'# 'bert'  # ['bert','roberta']
-    emb_name = 'bert-base-uncased'  # 'bert-base-uncased' # ['bert-base-uncased', 'roberta-base']
+    epochs = 500
+    embedding = 'roberta' # ['bert','roberta']
+    emb_name = 'roberta-large' #'monologg/distilkobert'#'HanBert-54kN-torch'#'skt/kobert-base-v1'#'monologg/kobigbird-bert-base'  # 'bert-base-uncased' # ['bert-base-uncased', 'roberta-base']
     mawps_vocab = True
 
     max_length = 100  # 30
@@ -50,8 +50,8 @@ class config:
 
 
 data_dir = './data/'
-os.environ["CUDA_VISIBLE_DEVICES"] = config.gpu
-device = torch.device(f"cuda:{config.gpu}" if torch.cuda.is_available() else "cpu")
+#os.environ["CUDA_VISIBLE_DEVICES"] = config.gpu
+device = torch.device(f"cuda" if torch.cuda.is_available() else "cpu")
 
 
 def set_seeds(seed=42):
@@ -242,7 +242,7 @@ def main(config):
         #         log_file = os.path.join(config.log_path, 'log.txt')
 
         if is_train:
-            create_save_directories(config.model_path)
+            create_save_directories(config.model_path) # model_path가 없으면 디렉토리를 만듦
 
         '''Read Files and create/load Vocab'''
         if is_train:
@@ -258,8 +258,6 @@ def main(config):
                 pickle.dump(voc1, f, protocol=pickle.HIGHEST_PROTOCOL)
             with open(vocab2_path, 'wb') as f:
                 pickle.dump(voc2, f, protocol=pickle.HIGHEST_PROTOCOL)
-
-            print(voc2.w2id)
         #           print(voc2.id2w)
         #           print(voc2.w2c)
 

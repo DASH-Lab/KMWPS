@@ -18,6 +18,7 @@ def build_model(config, voc1, voc2, device):
 
     model = TransformerModel(config, voc1, voc2, device)
     model = model.to(device)
+    print(f"model parameters: {sum(p.numel() for p in model.parameters() if p.requires_grad)}")
 
     return model
 
@@ -72,6 +73,7 @@ def train_model(model, train_dataloader, val_dataloader, voc1, voc2, device, con
 
             sent1s = sents_to_idx(voc1, data['ques'], config.max_length, flag=0)
             sent2s = sents_to_idx(voc2, data['eqn'], config.max_length, flag=1)
+
             sent1_var, sent2_var, input_len1, input_len2 = process_batch(sent1s, sent2s, voc1, voc2, device)
 
             nums = data['nums']
@@ -151,8 +153,7 @@ def train_model(model, train_dataloader, val_dataloader, voc1, voc2, device, con
 
             #             logger.debug('Validation Bleu: {}'.format(val_bleu_epoch[0]))
 
-            torch.save(state, f'./models/best_models_{epoch + epoch_offset}epoch_first_model.pth')
-            estop_count = 0
+            torch.save(state, f'./models/best_models_KoBERT.pth')#{epoch + epoch_offset}epoch_first_model.pth')
         else:
             estop_count += 1
 
@@ -230,17 +231,16 @@ def run_validation(config, model, val_dataloader, voc1, voc2, device, epoch_num,
 
         sent1_var, sent2_var, input_len1, input_len2 = process_batch(sent1s, sent2s, voc1, voc2, device)
 
-        val_loss, decoder_output = model.greedy_decode(ques, sent1_var, sent2_var, input_len2, criterion,
-                                                       validation=True)
+        val_loss, decoder_output = model.greedy_decode(ques, sent1_var, sent2_var, input_len2, criterion, validation=True)
 
         # acc 측정
         temp_acc_cnt, temp_acc_tot, disp_corr = cal_score(decoder_output, nums, ans, names)
+        
         val_acc_epoch_cnt += temp_acc_cnt
         val_acc_epoch_tot += temp_acc_tot
         ##########################################
         # decoder_output = sum(decoder_output, [])
         if vis_outputs:
-
             if config.val_outputs:
                 for n in range(len(decoder_output)):
                     str_ = ''
