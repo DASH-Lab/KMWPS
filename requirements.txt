@@ -1,0 +1,8 @@
+konlpy==0.5.2
+numpy
+pandas==1.3.3
+tqdm==4.62.3
+sklearn
+attrdict==2.0.1
+transformers==4.11.3
+tweepy==3.10.0
