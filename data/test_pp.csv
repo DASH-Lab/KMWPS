@@ -1,0 +1,510 @@
+Question,Equation,Answer,fold,Numbers,Names
+"냉장고에 오렌지 name0가 number0병 있고, name1 name2는 오렌지 name3보다 number1병 더 많이 있습니다. 냉장고에 있는 오렌지 name4와 name5 name6는 모두 몇 병인가?",number1 + ( number1 + number1 ),6,0,2 2 ,포도 주스 
+name0이는 number0개의 비단과 number1개의 name1을 샀습니다. 총 몇 개의 물건을 샀습니까?,number0 + number1,111421,0,61921.0 49500.0 ,태형 야구공 
+name0이는 name1 number0봉지를 샀습니다. name2이는 number1봉지를 샀습니다. 총 name3 봉지는 몇 개 입니까?,number0 + number1,13,0,6.0 7.0 ,민영 호석 과자 
+number0부터 number1까지의 수 카드를 number2부터 순서를 거꾸로 하여 놓았습니다. number3째와 number4째 사이에 놓인 수 카드의 수는 name0엇일까요?,number2 - ( number3 + number4 ) // number3 + number0,7,0,1 9 9 2 4 ,무 
+"name0는 number0개의 파란풍선, name1는 number1개의 빨간풍선을 갖고 있습니다. name2이는 number2개의 name3 풍선을 갖고 있을 때, 총 풍선 갯수는 몇 개 입니까?",number0 + number1 + number2,18,0,5.0 6.0 7.0 ,유나 유정 윤기 노란색 
+name0이의 학교 운동장의 한 바퀴는 number0m입니다. name1이는 어제 number1바퀴를 뛰었고 오늘은 number2바퀴를 뛰었습니다. 은영이가 어제와 오늘 학교 운동장을 뛴 거리는 총 몇 m입니까?,number0 * ( number1 + number2 ),16089,0,93 92 81 ,남준 
+"name0이네 반은 name1이 number0명, name2이 number1명입니다. name3이네 반 학생 중에서 안경을 낀 학생이 number2명이name4 안경을 끼지 않은 학생은 몇 명인지 구하시오.",number0 + number1 - number2,23,0,17 14 8 ,호석 라면 남학생 여학생 
+name0이는 길이가 number0m인 끈 number1개와 길이가 number2m인 끈 number3개를 가지고 있습니다. 총 몇 m의 끈을 name1이가 가지고 있는지 소수로 나타내시오.,( number3 / 10 ) * number1 + number2 * number3,0.9,0,3/10 2 0.1 3 ,유정 
+name0가 가진 끈은 number0m이고 name1이가 가진 끈은 number1m입니다. 두 사람이 가진 끈은 모두 몇 m입니까?,number0 + number1,442,0,178 264 ,민영 윤기 
+"학생들이 name0를 타려고 한 줄로 서 있고 name1이는 앞에서 number0째, 뒤에서 number1째에 서 있습니다. 줄을 선 학생은 모두 몇 명입니까?",number0 + number1 - 1,9,0,4 6 ,태형 버스 
+name0의 집에서 우체국까지의 거리는 number0km이고 우체국에서 외할머니 댁까지는 number1km입니다. name1의 집에서 우체국을 지나 외할머니 댁까지 가려면 몇km를 가야할까요?,number0 + number1,6.13,0,4.86 1.27 ,유나 
+상자 안에 number0개의 공이 있습니다. name0이가 number1개의 공을 상자 안에 더 넣었습니다. 상자 안에 있는 공은 모두 몇 개입니까?,number0 + number1,95,0,40 55 ,남준 
+number0명의 친구가 달리기 시합을 하였습니다. name0이는 결승점에 앞에서 number1째로 들어왔습니다. name1이는 결승점에 뒤에서 몇째로 들어왔나요?,number0 - number1 + 1,5,0,7 3 ,민영 
+"name0이는 number0개의 name1를 골랐고, name2이는 number1개의 name3를 골랐습니다. 두 사람에게 총 몇개의 과일이 있습니까?",number0 + number1,11,0,6.0 5.0 ,민영 태형 사과 배 배 
+현재 공원에는 총 number0개의 나name0가 있습니다. 오늘 number1그루를 심으면 총 몇 그루의 나name1가 있습니까?,number0 + number1,83,0,34.0 49.0 ,무 
+"name0는 시간당 number0 달러를 벌어들입니다. 그녀는 name1에 number1 시간, name2 number2 시간, name3 number3 시간을 일했습니다. name4는 얼마나 많은 돈을 벌었습니까?",number0 * (13.0 + number2 + number3 ),240,0,6.0 13.0 15.0 12.0 ,유나 금요일 토요일 일요일 
+"name0이의 name1과 name2 점수의 평균은 number0점이고, name3 점수는 number1점 입니다. 세 과목의 평균은 몇 점입니까?",( number0 * 2 + number1 ) / 3,80,0,85 70 ,지민 국어 영어 수학 
+"바구니에 name0가 number0개, name1가 number1개 들어있습니다. 바구니에 있는 name2와 name3는 모두 몇 개일까요?",number0 + number1,9,0,4 5 ,사과 배 배 
+"name0에 number0명이 타고 있었습니다. 학교 앞에서 number1명이 타고, 기숙사 앞에서 number2명이 탔습니다. name1에 남은 사람은 몇 명일가요?",number2 + number1 + number2,8,0,3 2 3 ,버스 
+"name0이네 반은 name1이 number0명이고, name2이 number1명입니다. name3이네 반 학생을 number2모둠으로 똑같이 나누어 합동작품을 만들려고 합니다. 한 모둠의 학생 수는 몇 명입니까?",( number0 + number1 ) / number2,71,0,84 58 2 ,석진 남학생 여학생 
+name0이는 줄넘기를 어제는 number0번하였고 오늘은 어제보다 number1개를 더 많이 하였습니다. 태식이는 오늘 줄넘기를 number2개 하였습니다. name1이가 이틀 동안 줄넘기를 한 횟수는 모두 몇 회입니까?,number0 + ( number0 + number1 ),504,0,153 198 100 ,태형 
+현재 공원에는 총 number0개의 나name0가 있습니다. 오늘 number1그루를 심으면 총 몇 그루의 나name1가 있습니까?,number0 + number1,61,0,12.0 49.0 ,무 
+"밭에서 name0와 name1이가 name2를 땄습니다. 이 number0이 각각 number1개, number2개씩을 땄다고 할 때, name3와 name4이가 딴 name5는 모두 몇 개일까요?",number1 + number2,84,0,2 49 35 ,윤기 석진 토마토 
+"name0는 number0개의 조개를 발견했습니다. name1는 number1개의 조개를 찾았고, 추가로 number2개를 발견했습니다. 총 몇개의 조개를 발견 했습니까?",number0 + number1 + number2,21,0,9.0 7.0 5.0 ,유나 정국 
+"name0이는 월요일에 number0분, name1에 number1분 name2에 number2분, name3에 number3분, 일주일에 평균 number4분 축구를 한다고 한다. name4에는 축구를 몇 분동안 하였을까?",number4 * 5 - ( number1 + number1 + number2 + number3 ),44,0,33 33 99 41 50 ,지민 화요일 수요일 목요일 금요일 
+name0는 number0cm number1mm 짜리 name1 수수깡과 number2cm number3mm 짜리 name2 수수깡을 이어 붙였다. 이어서 붙인 수수깡의 길이는 몇 mm가 되었나요?,( number0 * 10 + number1 ) + ( number2 * 10 + number3 ),78,0,3 2 4 6 ,윤기 노란색 빨간색 
+number0명의 학생이 가위바위보를 할 때 number1명이 가위를 내고 number2명이 보를 내고 number3명이 바위를 냈을 때 펼친 손가락은 몇 개일까요?,number1 * 2 + number3 * number0 + number3 * 0,11,0,5 3 1 1 ,
+name0에 number0명이 타고 있었습니다. 이번 역에서 number1명이 내리고 number2명이 새로 탔습니다. 지금 name1에 타고 있는 사람은 몇 명입니까?,number0 - number1 + number2,1053,0,935 358 476 ,기차 
+name0이네 집에서 name1까지는 number0km number1m이고 name2에서 name3까지는 number2km number3m입니다. name4이네 집에서 name5까지의 거리는 name6에서 name7까지의 거리보다 몇 km 더 먼지 써라.,( ( number0 * 1000 + number1 ) - ( number2 * 1000 + number3 ) ) / 1000,2.5,0,4 700 2 200 ,태형 도서관 박물관 
+냉장고에 들어 있는 name0 name1 number0개와 갈색 name2 number1개 중에서 number2개를 먹었습니다. 냉장고에 남아있는 name3은 몇 개인가요?,number0 + number1 - number2,17,0,5 24 12 ,흰색 달걀 
+"name0이는 name1을 number0개를 받고, 여동생에게서 number1개를 받았습니다. 그녀가 하루에 number2개씩 먹었을 때, 총 몇 일동안 먹을 수 있습니까?",( number0 + number1 ) / number2,9,0,66.0 15.0 9.0 ,민영 사탕 
+"name0로 가는 name1에 남자가 number0명, 여자가 number1명 타고 있습니다. 이 name2에는 모두 몇 명이 타고 있습니까?",number0 + number1,266,0,154 112 ,(가) 비행기 
+"name0에 number0인치의 옷을 샀습니다. name1에 number1인치의 옷을 샀을때, 총 옷의 길이는 얼마입니까?",number1 + number0,0.6,0,0.4 0.2 ,화요일 일요일 
+"학생들이 놀이기구를 타려고 한 줄로 서 있는데 name0는 앞에서 number0째, 뒤에서 number1째에 있습니다. 줄을 선 학생은 모두 몇명인가요?",number0 + number1 - 1,6,0,3 4 ,은지 
+한 상자에 number0개씩 총 number1개의 name0를 담으려고 합니다. name1를 모두 담으려면 상자는 적어도 몇 개 이상 필요한지 구하시오.,number1 // number0 + 1,9,0,97 836 ,토마토 
+"name0이는 오전에 number0개의 name1를, 오후에 number1개의 name2를 땄습니다. 하루동안 딴 name3를 봉지 number2장에 똑같이 나누어 담으려고 할 때, 한 봉지에 name4를 몇 개씩 담아야 number3요?",( number1 + number1 ) / number2,8,0,8 8 2 1 ,호석 사과 
+"name0이는 number0개의 연필을 갖고 있었는데 그 중 name1이가 number1개의 name2을 name3에게 주었을 때, name4이는 몇 개의 name5을 갖고 있습니까?",number0 + number1,326,0,217.0 109.0 ,유정 남준 볼펜 
+"달리기 시합에서 name0이는 number0등을 했습니다. name1는 number1등을 했고, name2이는 name3보다 잘했지만 name4이보다는 못했습니다. name5이의 등수는 몇 등입니까?","range( min( number0 , number1 ) + 1 , max( number0 , number1 ) ) [0]",3,0,2 4 ,남준 윤기 호석 
+"name0이네 학교의 number0학년 name1은 number1명, name2은 number2명입니다. number3학년 학생은 모두 몇 명입니까?",number1 + number2,562,0,6 315 247 6 ,남준 남학생 여학생 
+"name0와 name1이는 같은 건물에 살고 있습니다. name2는 number0층보다 number1층 위에 살고, name3이는 name4보다 number2층 위에 살고 있습니다. name5이는 건물의 몇 층에 살고 있을까요?",number0 + number2 + number2,9,0,7 1 1 ,윤기 석진 
+"name0이는 name1자를 number0개 캤고, name2이는 name3이보다 number1개 더 캤습니다. 두 사람이 캔 name4자는 모두 몇 개입니까?",number0 + ( number0 + 5),75,0,35 5 ,남준 석진 감 
+"어느 과수원에서 name0를 연경이는 number0개, name1이는 number1개 땄습니다. 연경이와 name2이가 딴 name3를 number2명에게 똑같이 나누어 주면 number3명에게 name4를 몇 개씩줄 수 있습니까?",( number0 + number1 ) / number2,19,0,10 28 2 1 ,유정 사과 
+"name0에 동화책은 number0권, 위인전은 number1권 있습니다. name1에 있는 동화책과 위인전은 모두 몇 권인가요?",number0 + number1,1222,0,654 568 ,도서관 
+어떤 수와 어떤 수보다 number0 작은 수의 합은 number1입니다. 어떤 수보다 number2 큰 수는 얼마일까요?,( number1 + number0 ) / 2 + number2,14,0,5 17 3 ,
+name0는 아이패드에 number0개의 노래를 저장했습니다. 오래된 number1개의 노래를 삭제하고 number2개의 새로운 노래를 다운받았습니다. name1의 아이패드에는 몇개의 노래가 있습니까?,number0 + number2 - number1,28,0,11.0 7.0 24.0 ,은지 
+합이 number0이고 차가 number1인 number2수가 있을 때 더 큰 수를 구하세요,( number0 + number1 ) / number2,5,0,6 4 2 ,
+"빨간 구슬이 number0개, 파란 구슬이 number1개 있습니다. 노란 구슬은 빨간 구슬과 파란 구슬을 합한 것보다 number2개 더 적습니다. 노란 구슬은 몇개인가?",number0 + number1 - number2,64,0,56 26 18 ,
+name0이네 집에서 소방서까지의 거리는 number0km보다 number1m 더 멉니다. name1이네 집에서 소방서까지의 거리는 몇 m입니까?,( number0 * 1000 ) + number1,4100,0,4 100 ,호석 
+"number0, number1, number2 중 가장 작은 수와 가장 큰 수의 합을 쓰시오.","min( number0 , number1 , number2 ) + max( number0 , number1 , number2 )",729,0,208 521 492 ,
+name0이는 한 봉지에 딸기 number0개와 name1 number1개를 담아 친구 number2명에게 한 봉지씩 나누어 주었습니다. name2이가 친구 number3명에게 나누어 준 과일은 모두 몇 개인가?,( number0 + number1 ) * number3,72,0,20 4 3 3 ,남준 사과 
+"name0는 number0마리의 고양이와 number1마리의 여우가 있습니다. name1가 고양이 number2마리를 팔았을 때, 남은 동물은 몇 마리입니까?",number0 + number1 - number2,28,0,36.0 18.0 26.0 ,윤기 
+"비디오 게임을 number0원에 구매한 name0이는 게임기를 number1원에 사고, number2원을 할인 받았습니다. 총 지불한 금액은 얼마입니까?",number0 + number1 - number2,46,0,14.0 36.0 4.0 ,민영 
+"name0, name1, name2, name3이의 name4 점수는 각각 number0점, number1점, number2점, number3점입니다. 이 number4을 제외한 학급의 name5 점수 평균은 number5점 입니다. name6이네 학급 인원수가 number6명일 때, 학급 name7 평균 점수는 몇 점입니까?",( ( number6 - number4 ) * number5 + number0 + number1 + number2 + number3 ) / number6,53.06,0,35 82 8 88 4 53 18 ,민영 남준 지민 은지 사회 
+길이가 number0m number1cm 인 도막을 한 도막이 number2cm가 되게 잘랐습니다. 만들 수 있는 number3cm짜리 도막의 수는 몇 개인가?,( number0 * 100 + number1 ) // number3,8,0,6 27 70 70 ,
+name0에 number0명이 타고 있었습니다. 수영장 앞에서 number1명이 타고 서점 앞에서 number2명이 내렸습니다. name1에 남은 사람은 몇 명일가요?,number1 + number1 - number2,4,0,3 3 2 ,버스 
+영화가 number0시간 number1분 동안 상영되었습니다. 이 영화는 몇 분짜리 영화입니까?,( number0 * 60 ) + number1,230,0,3 50 ,
+"name0는 number0 달러를 갖고 있습니다, 일을 하여 number1 달러를 더 받았다면, number2 달러짜리 총을 총 몇개 살 수 있습니까?",( number0 + number1 ) / number2,3,0,4.0 11.0 5.0 ,유나 
+"마을에서 name0이는 number0개의 지우개를 샀습니다. 다른 마을에서 number1개의 지우개를 샀고, 지우개는 number2개당 number3원 입니다. 총 얼마를 지불 했습니까?",number3 * ( number0 + number1 ),50,0,7.0 3.0 1 5.0 ,민영 
+name0이는 과수원에서 name1를 어제는 number0개 땄고 오늘은 number1개 땄습니다. name2이가 오늘과 어제 딴 name3는 몇 개 인가요?,number0 + number1,83,0,31 52 ,남준 사과 
+name0의 학교 운동장 한 바퀴는 number0m입니다. name1는 어제 number1바퀴를 뛰었고 오늘은 number2바퀴를 뛰었습니다. name2가 어제와 오늘 학교 운동장을 뛴 거리를 구하여라.,number0 * ( number1 + number2 ),875,0,175 2 3 ,은지 
+name0이는 number0개의 새우버거와 number1개의 불고기피자를 주문 했습니다. name1달이 오다가 피자 number2개를 잃어버렸다면 주문한 메뉴는 총 몇 개입니까?,number0 + number1 - 10.0,32,0,25.0 17.0 10 ,석진 배 배 
+두발name0 number0대와 외발name1 number1대의 바퀴는 모두 몇 개인가요?,2 * number0 + 1 * number1,32,0,7 6 ,자전거 
+"name0는 각각 number0개, number1개의 name1과 name2을 먹었습니다. 그녀는 총 몇개를 먹었습니까?",number0 + 15.0,37,0,22.0 15 ,유나 수박 당근 
+사람들이 번호 순서대로 줄을 섰습니다. name0이가 number0번이name1 name2이 바로 뒤에 서 있는 사람은 몇 번일까요?,number0 + 1,39,0,38 ,지민 라면 
+"name0는 number0개의 name1, name2는 number1개의 name3를 골랐습니다. 총 name4 갯수는 몇개 입니까?",number0 + number1,227,0,123.0 104.0 ,유나 은지 수박 
+name0이는 문구점에서 number0원짜리 도화지 number1장과 number2원짜리 연필 number3자루를 샀습니다. name1이가 산 물건의 가격은 모두 얼마인가요?,number0 * number1 + number2 * number3,1170,0,130 1 520 2 ,남준 
+"name0이의 목표는 number0점 이상의 name1 시험 점수를 받는 것이다. 현재까지 name2이의 단원별 name3 점수가 number1, number2, number3, number4, number5 점이라고 할 때, 마지막 시험에 적어도 몇 점을 받아야 목표를 이룰수 있을까?",number2 * 6 - ( number1 + number2 + number3 + number4 + number5 ),95,0,90 94 90 85 93 83 ,유정 수학 
+"name0이는 구슬을 number0개 가지고 있고, name1이는 name2이보다 구슬을 number1개 더 많이 가지고 있습니다. name3이가 가지고 있는 구슬은 몇 개일까요?",number0 + number1,6,0,2 4 ,민영 남준 
+name0이는 처음에 number0원을 가지고 있다가 number1원짜리 name1을 number2 사먹었고 어머니께 용돈 number3원을 받았습니다. name2이가 지금 가지고 있는 돈은 얼마입니까?,number0 - number1 + number3,700,0,500 150 1 350 ,정국 사탕 
+name0이는 number0개의 name1을 갖고 있습니다. name2는 number1개의 name3을 갖고 있습니다. 총 name4의 갯수는 얼마입니까?,number0 + number1,71,0,41.0 30.0 ,유나 정국 볼펜 
+생일잔치에 여자 친구가 number0명 오고 남자 친구는 여자친구보다 number1명 더 왔습니다. 친구들은 모두 몇명 입니까?,number0 + ( number0 + number1 ),16,0,7 2 ,
+교실에 name0은 없고 name1만 number0명 있습니다. 교실에 있는 학생은 모두 몇 명일까요?,0 + number0,7,0,7 ,남학생 여학생 
+"서로 다른 두 자연수 name0, name1가 있습니다. 'name2+name3=number0', 'name4=name5+name6+name7+name8'일 때, name9를 구하시오.",number0 / ( 4 + 1 ),6,0,30 ,A B 
+어떤 수에 number0을 더해야 할 것을 잘못하여 뺐더니 number1가 되었습니다. 바르게 계산하면 얼마입니까?,( number0 + number1 ) + number0,1896,0,674 548 ,
+"name0에 number0명이 타고 있었습니다. 서점 앞에서 number1명이 타고, 수영장 앞에서 몇 명이 내렸더니 name1에 number2명 남았습니다. 수영장 앞에서 내린 사람은 몇 명일까요?",number0 + number2 - number2,3,0,3 2 2 ,버스 
+name0는 name1를 타고 할머니댁에 가고 있습니다. name2 안에는 처음에 number0명이 타고 있었는데 number1번째 역에서 number2명이 내리고 number3명이 더 탔습니다. name3 안에는 모두 몇 명이 타고 있는가?,number0 - number2 + number3,582,0,722 1 253 113 ,유나 기차 
+"name0이는 밤을 number0개 주웠고 name1이는 name2이보다 number1개 더 많이 주웠을때, 두 사람이 주운 밤은 모두 몇 개입니까?",number0 + ( number0 + number1 ),275,0,123 29 ,태형 지민 
+name0이는 지금까지 장애물 number0개를 뛰어넘었습니다. name1이가 number1개를 더 뛰어넘으면 모두 몇 개를 뛰어넘은 것일까요?,number0 + number1,15,0,9 6 ,지민 
+어떤 수에서 number0을 뺐더니 number1가 되었습니다. 어떤 수는 얼마입니까?,number0 + number1,863,0,428 435 ,
+"name0이네 모둠 number0명이 name1 색종이 number1장, name2 색종이 number2장을 똑같이 나누어 가졌습니다. 한 학생이 가지는 name3 색종이와 name4 색종이의 합을 구하시오.",number1 / number0 + number2 / number0,15,0,3 27 18 ,태형 파란색 빨간색 
+"어떤 수에 number0을 더할 것을 잘못하여 뺐더니 number1이 되었을 때, 어떤 수에서 number2을 더한 값을 구하세요.",number1 + number2 + number2,92,0,18 56 18 ,
+"name0, name1, name2이가 number0m 달리기를 했습니다. name3이는 number1초, name4이는 name5이보다 number2초 빨리 달렸습니다. name6이가 name7이보다 number3초 느리게 달렸다면 name8이는 number4m를 몇초에 달렸는지 쓰시오.",number1 - number2 + number3,17.81,0,100 16.88 0.3 1.23 100 ,남준 호석 석진 
+"name0는 줄넘기를 어제는 number0번 하였고, 오늘은 number1번 하였습니다. name1는 어제와 오늘 줄넘기를 모두 몇 번 하였을까요?",number0 + number1,163,0,84 79 ,유나 
+name0이는 number0개의 인형을 가지고 있고 name1는 number1개의 인형을 가지고 있습니다. 그들이 인형을 모두 합치면 총 몇개의 인형이 있습니까?,number0 + number1,11752,0,11209.0 543.0 ,유나 유정 
+"노란 공은 빨간 공과 파란 공을 합한 것보다 number0개 적습니다. 빨간 공이 number1개, 파란 공이 number2개 있다고 할 때, 노란 공은 몇 개일까요?",number1 + number2 - number0,36,0,5 18 23 ,
+"name0이는 name1와 name2 점수의 평균은 number0점이고 name3, name4, name5 점수의 평균은 number1점입니다. name6이의 number2 과목 점수의 평균은 몇 점인지 구하시오.",( number0 * 2 + number1 * 3 ) / number2,87,0,84 89 5 ,민영 국어 영어 수학 사회 과학 
+name0이네 농장에는 닭 number0마리와 강아지 number1마리가 있습니다. name1이네 농장에 있는 닭과 강아지의 다리의 수는 모두 몇 개입니까?,number0  * 2 + number1 * 4,186,0,37 28 ,정국 
+"name0를 number0로 나누면 몫은 name1이고 나머지는 name2가 됩니다. name3, name4, name5는 자연수입니다. 이 식에서 몫과 나머지가 같습니다. 나누어지는 수 name6 중 가장 큰 수를 구하시오.",( number0 - 1 ) * ( number0 + 1 ),63,0,8 ,A B C 
+name0이네 농장에 당나귀가 number0마리 있었습니다. 당나귀 number1마리가 태어나고 number2마리가 사라졌다면 농장에 있는 당나귀의 수는 얼마인가?,number0 + number1 - number2,5,0,6 1 2 ,태형 
+"화단을 똑같이 number0부분으로 나누고 화단의 number1에는 장미를, number2에는 name0궁화을 심었습니다. 마지막으로 화단의 나머지 부분에는 카네이션을 심었습니다. 카네이션을 심은 부분은 전체의 얼마인지 소수로 나타내시오.",1 - ( ( 5 / number0 ) + number2 ),0.2,0,10 5/10 0.3 ,무 
+"라임 number0개 중 name0이는 number1개 먹었고, 삼촌은 name1이보다 number2개 더 많이 먹었습니다. 남은 라임은 몇 개인가요?",number0 - number1 - ( number1 + number2 ),3,0,12 2 5 ,정국 
+name0이는 name1 number0개와 라임 number1개를 바구니 number2개에 똑같이 나누어 담으려고 합니다. 한 바구니에 과일을 몇 개씩 담아야 number3요?,( number0 + number1 ) / number2,93,0,225 240 5 1 ,남준 사과 
+"name0는 딸기 맛 name1 number0개, 머루 맛 name2 number1개, name3 맛 name4 number2개를 가지고 있습니다. name5가 가지고 있는 name6은 모두 몇 개일까요?",number0 + number1 + number2,12,0,2 4 6 ,윤기 사탕 우유 
+"마트에 딸기 맛 요구르트가 number0병, 샤인머스캣 맛 요구르트가 number1병 있습니다. 한 상자에 요구르트를 number2병씩 담으려고 합니다. 상자에 담지 못한 요구르트는 몇 개일까요?",( number0 + number1 ) % number2,0,0,50 40 10 ,
+"마트에 샤인머스캣 맛 요구르트가 number0병, 딸기 맛 요구르트가 number1병 있습니다. 한 상자에 요구르트를 number2병씩 담으려고 합니다. 상자는 모두 몇 개가 필요할까요?",( number0 + number1 ) // number2,9,0,40 50 10 ,
+name0이가 오전에 name1를 number0개 땄고 오후에 name2를 number1개 땄습니다. 그 중 number2개를 먹었다면 남은 산딸기는 모두 몇 개입니까?,number0 + number1 - number2,424,0,316 295 187 ,남준 사과 
+"name0이의 바구니에는 number0개의 케이크가 있습니다. 태영이가 추가로 구매한 총 산딸기는 number1개 일 때, name1이는 총 몇 개의 산딸기를 갖고 있습니까?",number0 + number1,98,0,28.0 70.0 ,태형 
+name0는 한 봉지에 number0개씩 number1봉지의 씨name1자를 가지고 있고 name2는 한 봉지에 number2개씩 number3봉지의 씨name3자를 가지고 있다. name4와 name5가 가지고 있는 씨name6자의 총 갯수는 얼마인가?,number0 * number1 + number2 * number3,119,0,20 4 13 3 ,유나 은지 감 
+"어느 밭에서 돼지name0자를 number0개, 고구마를 number1개 캤다면 그 밭에서 나온 돼지name1자와 고구마는 총 몇 개일까요?",874 + number0,1368,0,494 878 ,감 
+name0이는 가지고 있던 양파 중에서 number0개를 먹었더니 number1개가 남았습니다. name1이가 처음에 가지고 있던 양파은 몇개인가요?,number0 + number1,31,0,13 18 ,유정 
+"name0는 양파 맛 name1 number0개, name2 맛 name3 number1개, name4 맛 name5 number2개를 가지고 있습니다. name6가 가지고 있는 name7 맛 name8과 양파 맛 name9은 모두 몇 개일까요?",number1 + number0,6,0,2 4 6 ,윤기 사탕 포도 우유 
+name0이의 바구니에는 number0개의 양파가 있습니다. 그는 number1개의 양파를 더 구매햇을때 name1이가 갖고있는 양파는 몇 개입니까?,number0 + number1,63,0,28.0 35.0 ,태형 
+name0드민턴공이 number0개 들어 있는 상자에 name1드민턴공을 number1개씩 number2번 넣었습니다. 상자에 들어 있는 name2드민턴공은 모두 몇 개인지 구하세요.,number0 + number1 * number2,190,0,150 10 4 ,배 배 
+name0이는 아빠가 사오신 딸기맛name1 number0개와 엄마가 사오신 딸기맛name2 number1개를 number2개의 봉지에 담아 모두 포장하였습니다. 포장한 봉지는 모두 몇 봉지인지 구하시오.,( number0 + number1 ) / number2,8,0,24 16 5 ,유정 사탕 
+name0는 마트에서 number0개에 number1원짜리 name1맛name2 number2개와 number3원짜리 name3 number4개를 샀습니다. name4가 낸 돈은 모두 얼마인가요?,number1 * number2 + number3 * number4,960,0,1 80 9 60 4 ,유나 사탕 과자 포도 포도맛사탕 
+"name0이는 name1맛name2 number0개를 가지고 있고, name3이는 name4맛name5 number1개를 가지고 있고 name6이는 name7이보다는 적고, name8이보다는 많은 name9맛name10을 가지고 있습니다. name11이가 가지고 있는 name12맛name13은 몇 개일까요?",( number0 + number1 ) // 2,4,0,5 3 ,민영 태형 석진 사탕 포도 포도맛사탕 
+name0맛name1을 name2이는 number0개 name3이는 name4이보다 number1개 더 가지고 있습니다. 두 사람의 name5맛name6의 합은 몇 개 인가요?,number0 + ( number0 + number1 ),9,0,2 5 ,남준 호석 사탕 포도 포도맛사탕 
+초코맛name0을 name1이는 number0개 name2이는 name3이보다 number1개 더 가지고 있습니다. name4이가 가지고 있는 초코맛name5은 몇 개 인가요?,number0 + number1,7,0,2 5 ,남준 호석 사탕 초코맛사탕 
+"name0이는 number0개의 초코맛name1을 받았고, name2는 number1개의 초코맛name3을 받았을 때, 모은 초코맛name4을 한 사람당 number2개씩 나누어 준다면, 총 몇 명에게 나누어 줄 수 있습니까?",( number0 + number1 ) / 8.0,2,0,11.0 5.0 8 ,윤기 지민 사탕 초코맛사탕 
+"name0는 메론맛name1 number0개를 갖고 있습니다. name2이가 number1개의 메론맛name3을 name4에게 주었을 때, name5가 가진 메론맛name6은 총 몇개입니까?",number0 + number1,91,0,5.0 86.0 ,윤기 지민 사탕 메론맛사탕 
+"한 바구니에 name0은 number0개씩 담을 수 있고, 라임는 number1개씩 담을 수 있습니다. name1 number2개와 라임 number3개를 각각 상자에 담았을 때 name2이 몇 상자 더 많은 지 쓰시오.",( number2 / number0 ) + ( number3 / number1 ),39,0,17 38 408 570 ,수박 
+"어느 name0 가게에서 생과일을 직접 갈아서 팔고있습니다. 샤인머스캣 name1 number0l가 number1원, 파인애플 name2 number2l가 number3원일 때, 샤인머스캣 name3 number4l와 파인애플 name4 number5l의 가격은 모두 얼마입니까?",( number1 * ( 1 / 10 ) ) / ( 3 / 10 ) * 5 + ( ( number3 * ( 1 / 10 ) ) / ( 2 / 10 ) ) * 7,2750,0,3/10 600 2/10 500 0.5 0.7 ,주스 
+"name0이는 샤인머스캣을 number0개로 number1상자, number2개씩 number3바구니 낱개로 number4개 가지고 있습니다. name1이가 가지고 있는 샤인머스캣은 몇 개 인가?",number0 * number1 + number2 * number3 + number4,825,0,100 8 10 2 5 ,남준 
+name0이는 number0개의 자두와 number1개의 돼지name1자를 갖고 있습니다. name2이가 가진 과일은 총 몇 개입니까?,number0 + number1,227,0,122.0 105.0 ,호석 감 
+name0이는 number0층에서 승강기를 타서 number1층 더 올라가서 내렸습니다. name1이는 몇 층에서 내렸을까요?,number0 + number1,10,0,3 7 ,동희 
+"name0이는 한 바구니에 number0개씩 들어 있는 라임 number1 바구니를 똑같이 number2묶음으로 나누어 한 묶음을 가졌습니다. 이 중에서 number3개를 친구에게 주고, 삼촌에게서 number4개를 더 받았다면 name1이가 가지고 있는 라임은 몇 개인가요?",number0 * number1 / number2 - number3 + number4,16,0,100 3 60 2 13 ,동희 
+"name0이는 올해 number0개의 name1을 샀습니다. name2은 number1개, 럭비공은 number2개를 샀습니다. name3이가 가진 공의 개수는 몇 개입니까?",number0 + number1 + number2,39,0,11.0 13.0 15.0 ,동희 배구공 테니스공 배 배 
+name0이는 number0개의 name1 공을 갖고 있습니다. name2는 number1개의 name3 공을 갖고 있습니다. 얼마나 많은 노란 공이 있습니까?,number0 + number1,17,0,9.0 8.0 ,석진 새별 노란색 
+"name0나name1가 name2이네 집에는 number0그루 있고, name3네 집에는 number1그루 있습니다. name4나name5 한 그루에서 수확한 name6의 평균이 number2개일 때, name7이와 name8네 집에서 수확한 name9는 모두 몇 개인가요?",( number0 + number1 ) * number2,65152,0,314 195 128 ,태형 새별 사과 무 
+name0이는 비닐하우스에서 name1를 어제는 number0송이 땄고 오늘은 number1송이 땄습니다. name2이가 어제와 오늘 딴 name3는 모두 몇 송이일까요?,number0 + number1,83,0,52 31 ,광수 포도 
+"name0이네 반은 name1이 number0명이고, name2이 number1명입니다. name3이네 반 학생을 number2모둠으로 똑같이 나누어 합동작품을 만들려고 합니다. 한 모둠의 학생 수는 몇 명입니까?",( number0 + number1 ) / number2,8,0,11 13 3 ,광수 남학생 여학생 
+키가 작은 사람부터 순서대로 number0명이 한 줄로 서 있습니다. name0이가 앞에서부터 number1 번째에 서 있습니다. 키가 큰 사람부터 순서대로 다시 줄을 서면 name1이는 앞에서부터 몇 번째에 서게 됩니까?,number0 + 1 - number1,2,0,4 3 ,광수 
+"name0이는 장난name1 name2를 number0개 가지고 있고, name3이는 name4이보다 number1대 더 적게 가지고 있습니다. name5이와 name6이가 가지고 있는 장난name7 name8는 모두 몇 대일까요?",number0 + ( number0 - number1 ),9,0,5 1 ,태형 광수 감 비행기 
+"name0이는 number0,number1원을 가지고 있습니다. 내일부터 number2흘동안 하루에 number3원씩 계속 저금한다면 name1이가 가진 돈은 얼마가 되는지 구하세요.",2500 + number2 * number3,3500,0,2 500 10 100 ,재석 
+"name0이는 number0개의 참치name1이 있습니다. name2이가 처음 number1개를 먹고 name3이가 name4이에게 number2개의 참치name5을 주었다면, name6이는 몇 개의 참치name7을 갖고 있습니까?",number0 + number2 - number1,35,0,33.0 17.0 19.0 ,정국 민하 김밥 
+number0명의 친구가 달리기 시합을 하였습니다. name0는 결승점에 꼴찌로 도착했습니다. name1는 앞에서 몇째로 들어왔나요?,number0 - 1 + 1,8,0,8 ,쯔양 
+name0의 수조에 number0 갤런의 물이 있습니다. name1이 number1 갤런을 더 많이 추가하면 몇 갤런이 있겠습니까?,number0 + number1,14.75,0,7.75 7.0 ,정국 쯔양 
+줄넘기를 name0이는 number0회 하였고 name1는 number1회 하였습니다. name2이와 name3가 한 줄넘기는 모두 몇 회일까요?,number0 + number1,30,0,20 10 ,호석 쯔양 
+올해 name0의 나이는 number0세이고 name1 아버지의 나이는 name2의 나이의 number1name3입니다. 내년의 name4 아버지의 나이를 구하시오.,number0 * number1 + 1,41,0,10 4 ,쯔양 배 배 
+"name0이의 사물함에는 만화책이 number0권, 교과서가 number1권 있습니다. name1이의 사물함에 있는 만화책과 교과서는 모두 몇 권일까요?",number0 + number1,129,0,75 54 ,쯔위 
+"name0를 name1이는 number0송이 먹었고, name2이는 name3이보다 number1송이 더 적게 먹었습니다. name4이와 name5이가 먹은 name6는 모두 몇 송이일까요?",number0 + number0 - number1,9,0,6 3 ,호석 쯔위 포도 
+"name0는 한 봉지에 number0개씩 들어 있는 초코맛name1 number1봉지를 똑같이 number2묶음으로 나누어 한 묶음을 가졌습니다. 이 중에서 number3개를 친구에게 주고, 이모에게서 number4개를 더 받았다면 name2이가 가지고 있는 구슬은 몇 개인지 쓰시오.",( number0 * number1 ) / number3 - number3 + number4,14,0,6 5 3 3 7 ,유나 쯔위 사탕 초코맛사탕 
+name0이는 number0쪽인 위인전을 모두 읽으려고 합니다. 하루에 number1쪽씩 읽으면 다 읽는데 모두 며칠이 걸리는지 구해 보세요.,number0 // number1 + 1,24,0,479 20 ,진범 
+"name0이는 꽃집에서 name1궁화 number0송이, 카네이션 number1송이, 수국 number2송이를 샀습니다. name2이가 산 꽃은 모두 몇 송이일까요?",number0 + number2 + number2,8,0,2 3 3 ,태준 무 
+name0이는 한 봉지에 머루 number0송이와 name1 number1개를 담아 친구 number2명에게 한 봉지씩 나누어 주었습니다. name2이가 친구 number3명에게 나누어 준 과일은 모두 몇 개인가?,( number0 + number1 ) * number3,105,0,13 8 5 5 ,태준 감 
+정호이는 number0개의 튤립과 number1개의 카네이션을 구매했습니다. 각각 number2원 씩 주고 샀다면 총 얼마를 지불 했습니까?,number2 * ( number0 + number1 ),40,0,7.0 3.0 4.0 ,
+name0이는 카네이션을 하루에 number0개 name1이는 하루에 number1개 접습니다. 두사람이 number2일동안 접은 카네이션의 개수는 모두 몇 개입니까?,( number0 + number1 ) * number2,156,0,24 15 4 ,태형 진범 
+name0이는 number0개의 복숭아를 골랐고 name1이는 number1개의 복숭아를 골랐습니다. 두 사람은 얼마나 많은 복숭아를 골랐습니까?,number0 + number1,56,0,45.0 11.0 ,유정 민하 
+name0에게는 number0 권의 만화책이 있습니다. name1는 number1 권의 위인전이 있습니다. 그들이 가진 총 책은 몇 권입니까?,number0 + number1,42,0,22.0 20.0 ,윤기 진솔 
+"name0이는 name1은 number0개 모았고, name2은 name3보다 number1개 더 적게 모았습니다. name4이가 모은 name5과 name6은 모두 몇 개일까요?",number0 + number0 - number1,15,0,9 3 ,지영 야구공 축구공 
+name0이는 헤드number0을 number1원에 샀습니다. name1이는 number2원에 샀습니다. number3명이 구입한 총 금액은 얼마입니까?,number1 + number2,7790,0,3 1346.0 6444.0 2 ,정국 지영 
+"name0이는 number0개의 푸딩를 받았고, name1는 number1개의 푸딩를 받았습니다. 모은 푸딩 한 사람당 number2개씩 나누어 줄 때, 총 몇 명에게 나누어 줄 수 있습니까?",( number0 + number1 ) / number2,2,0,11.0 5.0 8 ,윤기 지영 
+name0이는 number0개의 name1를 갖고 있습니다. name2이는 number1개의 풀을 갖고 있습니다. name3는 number2개의 테이프을 갖고 있습니다. 세 사람이 갖고 있는 학용품은 총 몇 개입니까?,number0 + number1 + number2,19,0,7.0 8.0 4.0 ,태형 남준 송찬 볼펜 
+"name0이는 number0원에 넥타이를 사고, number1원에 바지를 사고, number2원에 구두를 샀습니다. 지불한 총 비용은 얼마입니까?",number0 + number1 + number2,33.56,0,13.99 12.14 7.43 ,민영 
+name0이는 number0송이의 국화를 갖고 있습니다. number1개를 팔았고 number2개를 구매했습니다. name1이는 몇 송이의 국화를 갖고 있습니까?,number0 + number2 - number1,13,0,6.0 5.0 12.0 ,유정 
+"name0는 공책을 number0권 가지고 있고, name1이는 name2가 가진 공책의 number1name3를 가지고 있습니다. name4와 name5이가 가진 공책은 모두 몇 권입니까?",number0 + ( number0 * number1 ),80,0,20 3 ,남준 은지 배 배 
+키가 작은 사람부터 순서대로 number0명이 한 줄로 서 있습니다. name0이가 앞에서부터 number1 번째에 서 있습니다. 키가 큰 사람부터 순서대로 다시 줄을 서면 name1이는 앞에서부터 몇 번째에 서게 됩니까?,number0 + 1 - number1,4,0,5 2 ,정국 
+"name0가 number0개, name1가 number1개 있습니다. name2은 name3와 name4를 합한 것보다 number2개 더 적습니다. name5은 몇개인가요?",number0 + number1 - number2,61,0,35 55 29 ,사과 배 수박 배 
+"name0이는 강아지 장난name1에 number0원을 썻고, 새장에는 number1원을 썼습니다. name2이가 지불한 비용은 총 얼마입니까?",number0 + number1,21.95,0,10.22 11.73 ,석진 감 
+name0게가 똑같은 동화책 number0권을 담은 가방의 name1게가 number1kgnumber2g입니다. 가방만의 name2게가 number3kgnumber4g이name3 동화책 한 권의 name4게는 몇 g인지 구해 보시오.,( ( ( number1 * 1000 + number2 ) - ( number3 * 1000 + number4 ) ) / number0 ),500,0,5 3 700 1 200 ,무 라면 
+"name0, name1, name2, name3이가 가위바위보를 할 때 name4이와 name5는 가위를 내고 name6이와 name7이는 보를 냈을 때 펼친 손가락은 몇 개일까요?",2 * 2 + 2 * 5,14,0,,유정 태형 윤기 호석 
+"가위바위보를 하는데 name0이는 가위, name1이는 바위, name2이는 보를 냈을 때 펼친 손가락은 몇 개일까요?",2 + 0 + 5,7,0,,유정 태형 남준 
+"name0이는 분홍색 구슬 number0개, 하얀색 구슬 number1개, 하늘색 구슬 number2개를 가지고 있습니다. name1이가 가지고 있는 구슬은 모두 몇 개일까요?",number0 + number1 + number2,16,0,7 6 3 ,민영 
+두발name0 number0대와 세발name1 number1대의 바퀴는 모두 몇 개인가요?,2 * number0 + 3 * number1,32,0,7 6 ,자전거 
+책꽂이에 name0책이 number0권 꽂혀 있었습니다. name1이가 동화책을 number1권 더 꽂았다면 책꽂이에 꽂혀 있는 책은 모두 몇 권일까요?,number0 + number1,5,0,3 2 ,태형 국어 
+"name0 구슬은 number0개씩 number1통 있고, name1 구슬은 name2 구슬보다 number2개 더 많이 있습니다. name3 구슬은 모두 몇 개일까요?",number0 * number1 + number2,47,0,7 6 5 ,빨간색 검은색 
+name0이는 오전에 접은 학 number0개와 오후에 접은 학 number1개를 number2개씩 봉지에 담아 모두 포장하였습니다. 포장한 봉지는 모두 몇 개입니까?,( number0 + number1 ) / number2,8,0,22 18 5 ,석진 
+라임 number0개와 name0 number1개를 더하여 number2개의 봉지에 똑같이 나누어 담았습니다. 한 봉지에 들어 있는 과일은 몇 개인가요?,( number0 + number1 ) / number2,13,0,40 25 5 ,감 
+name0이는 화분을 number0개 가지고 있었는데 number1개를 선물로 받았습니다. name1이가 가지고 있는 화분은 모두 몇 개 일까요?,number0 + number1,6,0,5 1 ,지영 
+"name0이는 티켓을 number0개 모았습니다. name1이는 name2이보다 number1개 더 많이 모았고, name3는 name4이보다 number2개 더 적게 모았습니다. name5가 모은 티켓은 몇 개일까요?",number0 + number1 - number2,41,0,43 5 7 ,유정 은지 지영 
+"name0이는 이틀 전에 동화책을 number0쪽을 읽고, 어제는 number1쪽을 읽었습니다. 오늘은 어제보다 number2쪽을 더 읽었습니다. name1이가 number3일동안 읽은 책의 양을 구하시오.",number0 + number1 + ( number1 + number2 ),355,0,128 25 177 3 ,건우 
+"어느 농장에서 name0를 name1이는 number0개, name2이는 number1개 땄습니다. name3이와 name4이가 딴 name5를 number2명에게 똑같이 나누어 주면 number3명에게 name6를 몇 개씩줄 수 있습니까?",( number0 + number1 ) / number2,8,0,21 27 6 1 ,유정 건우 포도 
+name0이는 집에 number0명의 친구를 초대했습니다. 오후에 number1명의 친구를 추가로 초대하고 각 친구에게는 number2개의 name1가 있습니다. 총 name2의 갯수는 얼마입니까?,number2 * ( number2 + number0 ),63,0,2.0 7.0 7.0 ,건우 사과 
+국화를 name0이는 number0개 접었고 name1이는 name2이보다 number1개 더 많이 접었습니다. 두 사람이 접은 국화는 몇 개일까요?,number0 + ( number0 + number1 ),320,0,100 120 ,석진 송찬 
+name0이는 오전에 number0마일을 하이킹 했습니다. 오후에 number1마일을 더 하이킹 했으면 총 몇마일을 하이킹 했습니까?,number0 + number1,9.8,0,8.2 1.6 ,건우 
+"작년에 만화책을 name0이는 number0권 읽었고, name1이는 name2이보다 number1권 더 적게 읽었습니다. name3이와 name4이가 작년에 읽은 만화책은 모두 몇 권인지 구하세요.",number0 + number0 - number1,10,0,7 4 ,정국 광수 
+name0이는 줄넘기를 어제 number0번 했고 오늘은 하지 않았습니다. name1이가 어제와 오늘 한 줄넘기는 모두 몇 번일까요?,number0 + 0,4,0,4 ,광수 
+"사냥 체험장에서 name0이는 당나귀를 number0마리 잡았고, 다람쥐는 당나귀보다 number1마리 더 많이 잡았습니다. 석호가 잡은 동물은 모두 몇 마리일까요?",number0 + number0 + number1,14,0,5 4 ,광수 
+name0이는 아몬드 number0개를 갖고 있습니다. name1이는 name2보다 number1를 더 갖고 있습니다. name3이가 가진 아몬드는 몇 개 입니까?,number0 + number1,133,0,85.0 48.0 ,유정 태준 
+number0명의 학생이 number1명씩 조를 이룬다면 조는 몇 개가 생기는가?,( number0 / number1 ),2,0,14 7 ,
+name0는 number0개입니다. name1 number1개를 number2명이 똑같이 따기로 했다면 한 사람이 따야 하는 name2의 개수를 쓰시오.,number1 / number2,5,0,10 20 4 ,귤 포도 
+길이가 number0cm인 철사를 사용하여 가장 큰 정사각형 number1를 만들었습니다. 만든 정사각형의 한 변은 몇 cm입니까?,number0 / 4,10,0,40 1 ,
+빈 병이 number0개 있습니다. 한 상자에 빈 병을 number1개씩 담으려고 합니다. 상자는 몇 상자 필요한가?,number0 / number1,4,0,36 9 ,
+리본 number0m를 number1조각으로 나누고 name0이가 그 중 number2조각을 사용했다면 name1이가 사용한 리본은 몇 m입니까?,( number0 / number1 ) * number2,0.3,0,1 10 3 ,유정 
+name0 number0개를 number1상자에 똑같이 나누어 담으려고 합니다. name1를 한 상자에 몇 개씩 담을 수 있습니까?,number0 // number1,55,0,167 3 ,사과 
+name0이네 number0학년 학생 number1명이 체험활동을 갑니다. number2명씩 탈 수 있는 name1 number3대가 출발하였습니다. 남은 학생들은 number4명씩 탈 수 있는 승합차를 탔습니다. 필요한 승합차는 몇 대일까?,( number1 - ( number2 * number3 ) ) / number4,4,0,3 116 40 2 9 ,지민 버스 
+name0자 number0개를 number1개의 바구니에 똑같이 나누어 담았습니다. 한 바구니에 몇 개씩 담아야 number2요?,number0 / number1,28,0,84 3 1 ,감 
+소수점을 오른쪽으로 number0자리 옮기면 원래보다 number1만큼 커지는 소수가 있습니다. 이 소수를 구하시오.,number1 / ( ( 10 ** number0 ) - 1 ),0.01,0,4 77.09 ,
+name0가 가진 끈은 number0cm이고 name1이는 길이가 number1cm인 끈은 똑같이 number2개로 나눈 것 중 number3를 가지고 있습니다. name2가 가진 끈은 name3이가 가진 끈의 몇 name4인가요?,number0 / ( number1 / number2 ),5,0,140 84 3 1 ,유나 태형 배 배 
+"name0이는 상자에 총 number0개의 오렌지를 넣어야 합니다. 각 상자에는 number1개의 오렌지가 들어간다고 할 때, 몇개의 상자가 필요합니까?",number0 / number1,7,0,56.0 8.0 ,지민 
+name0 number0개를 한 사람에게 number1개씩 주려고 합니다. 몇 명에게 줄 수 있습니까?,number0 // number1,8,0,96 12 ,사탕 
+name0이는 number0개의 연필을 샀습니다. 한 사람당 number1개씩 나누어 줄 때 총 몇 명에게 나누어 줄 수 있습니까?,number0 / number1,812,0,2436.0 3.0 ,지민 
+어떤 수를 number0로 잘못 나누었더니 number1가 되었다. 어떤 수를 number2으로 나눈 결과를 구하시오.,( number0 * number1 ) / number2,6,0,9 4 6 ,
+키위 number0개를 바구니 number1개에 똑같이 나누어 담고 모둠별로 바구니를 number2개씩 주었습니다. name0이네 모둠 학생들이 바구니에 있는 키위를 number3개씩 똑같이 나누어 가져갈 수 있었다면 name1이네 모둠은 몇 명인가요?,( number0 / number1 ) * number3 / number3,2,0,82 41 1 1 ,민영 
+어떤 수에 number0을 곱한 수는  number1이 number2개인 수입니다. 어떤 수의 number3name0는 얼마입니까?,( ( number1 * number2 ) / number0 ) * number3,0.37,0,1 0.001 37 10 ,배 배 
+name0가 시간당 number0 킬로미터로 달리고 있습니다. number1킬로미터 떨어진 곳까지 몇 시간이 걸립니까?,number1 / number0,8,0,10.0 80.0 ,유나 
+number0개의 name0를 number1봉지에 나누어 담으려고 할 때 한 봉지에 몇 개의 name1를 담을 수 있습니까?,( number0 / number1 ),3,0,9 3 ,과자 
+name0이는 바둑돌을 number0개 가지고 있습니다. 바둑돌을 number1통에 number2개씩 담았다면 통에 들어있는 바둑돌의 수는 얼마인가요?,number0 // number2 * number2,70,0,70 1 10 ,정국 
+"number0개의 상자에 공을 똑같이 나누어 담으려고 합니다. 공이 number1통에 number2개씩 number3통 있을때, 한 상자에 몇 개씩 넣어야 하는지 답을 쓰시오.",number2 * number3 // number0,128,0,64 1 98 84 ,
+number0을 name0로 나누면 몫과 나머지가 number1이 나옵니다. 자연수 name1는 몇인가요?,( number0 - number1 ) / number1,8,0,63 7 ,A 
+"name0이는 number0개의 바나나를 가지고 있습니다. 그가 가족들에게 number1개씩 나눠 줄 때, 총 몇 명의 가족들에게 나눠 줄 수 있습니까?",number0 / number1,7,0,21.0 3.0 ,태형 
+name0이는 오늘 number0개의 name1을 먹었다. 매일 같은 양의 name2을 먹는다고 할 때 number1개의 name3을 모두 먹으려면 며칠이 걸리겠는가?,( number1 / number0 ),8,0,6 48 ,태형 사탕 
+name0이는 호떡을 똑같이 number0조각으로 나누어 전체의 number1만큼 먹으려고 합니다. name1이는 호떡을 몇 조각 먹게 됩니까?,number0 * ( number1 ),3,0,6 1/2 ,민영 
+"수의 name0number0 number1, number2, number3, number4, number5, name1, number6이 있습니다. name2에 알맞은 수를 구해보세요.",number5 * ( number2 / number1 ),15552,0,10 2 12 72 432 2592 93312 ,X 배 배 
+한 상자에 number0개씩 들어 있는 name0가 number1상자 있습니다. 이 name1를 다시 number2상자에 똑같이 나누어 담는다면 한 상자에 name2를 몇 개씩 담아야 하는지 구하시오.,( number0 * number1 ) / number2,48,0,30 8 5 ,배 배 
+연필의 길이가 number0mm라고 할 때 이 연필은 몇 cm입니까?,( number0 / 10 ),7.6,0,76 ,
+어떤 수를 number0로 나누어야 할 것을 잘못하여 number1으로 나누었더니 몫이 number2이 되었습니다. 바르게 계산하면 몫은 얼마입니까?,( number2 * number2 ) // number0,4,0,9 6 6 ,
+number0명이 탈 수 있는 놀이기구가 있다. number1명의 사람들이 놀이기구를 타려면 놀이기구를 몇 번 운행해야하는가?,( number1 / number0 ),7,0,4 28 ,
+"number0명이 색연필 number1타를 똑같이 나누어 가졌을 때, number2명이 가진 색연필은 몇 자루인가요?",( number1 * 12 ) / number0,6,0,8 4 1 ,
+"name0이는 number0개의 종이를 갖고 있습니다. 한 사람당 number1개의 종이를 나누어 주려고 할 때, 총 몇 명에게 나누어 줄 수 있습니까?",number0 / number1,5,0,100.0 20.0 ,민영 
+"name0는 총 number0가구가 있는 아파트에 살고 있습니다. 아파트가 number1개의 동으로 나누어져 있을 때, 한 동에는 몇 개의 가구가 살고있나요?",number0 / 80,70,0,6230 89 ,윤기 
+도화지 한 장으로 종이name0를 number0개 만들 수 있습니다. 종이 name1 number1개를 만들려면 도화지는 몇 장 필요한가요?,number1 / number0,8,0,4 32 ,배 배 
+선물 포장 number0개를 하는데 number1㎝의 리본이 필요합니다. number2의 선물을 포장하는 데 몇 cm의 리본이 필요한지 쓰시오.,number1 // number0,4,0,2 8 1 ,
+학생 number0명이 number1명씩 한 조를 이루어 택시를 타려고 할 때 택시는 몇 대가 필요한가?,( number0 / number1 ),5,0,15 3 ,
+풍선이 number0개 있습니다. number1개의 풍선이 터져서 남은 풍선을 number2명의 어린이에게 나누어 주려고 합니다. 어린이 number3명당 몇 개씩 나누어 줄 수 있는지 쓰시오.,( number0 - number1 ) / number2,4,0,97 53 11 1 ,
+"name0를 number0으로 나누었더니 몫이 number1가 되었다고 할 때, name1를 number2으로 나눈 몫은 얼마인지 쓰시오.",( number2 * number1 ) / number2,2,0,3 2 3 ,A 
+꽃가게에서 장미꽃 number0송이를 number1송이씩 묶어서 팔려고 합니다. 총 몇 묶음이 만들어지는지 쓰시오.,number0 // number1,9,0,99 11 ,
+어떤 수를 number0으로 나누어야 할 것을 잘못하여 number1로 나누었더니 몫이 number2가 되었습니다. 바르게 계산하면 몫은 얼마인지 쓰시오.,( number1 * number2 ) // number0,6,0,3 2 9 ,
+name0이는 인형을 number0개 가지고 있습니다. name1이와 이모가 인형을 똑같이 나누어 가지려면 각각 몇개를 가져야 number1요?,number0 / 2,3,0,6 1 ,지민 
+number0에 어떤 수를 곱해야 할 것을 잘못하여 number1에 어떤 수를 곱했더니 number2이 되었습니다. 바르게 계산하면 얼마인지 구하시오.,number2 / number1 * number0,78,0,13 99 594 ,
+name0이는 종이꽃을 number0분에 number1개씩 접을 수 있습니다. 그렇다면 number2분 동안 접을 수 있는 종이꽃의 개수를 구해라.,number2 / ( number0 / number1 ),5,0,6 2 15 ,지민 
+name0이는 number0개의 쿠키가 있고 number1명에게 똑같이 나누어 주려고 합니다. 한 사람당 몇개 씩 주어야 합니까?,number0 / number1,4,0,24.0 6.0 ,석진 
+애완 동물 가게에는 number0마리의 강아지가 있습니다. number1마리가 분양되었고 남은 강아지를 한 박스에 number2마리씩 넣었습니다. 총 몇개의 박스가 필요합니까?,( number0 - 3.0 ) / number2,3,0,18.0 3 5.0 ,
+어떤 수를 number0으로 나누어야 할 것을 잘못하여 곱했더니 number1가 되었습니다. 바르게 계산했을 때 몫을 구하시오.,( number1 / number0 ) // number0,1,0,6 69.12 ,
+name0 number0개를 가지고 있는 name1가 각 사람당 number1개를 나누어 준다면 총 몇 명에게 나누어 줄 수 있습니까?,number0 / number1,20,0,80.0 4.0 ,은지 사탕 
+name0이에게 자두가 number0개 있습니다. name1이는 number1개의 자두를 먹고 남은 자두를 number2개씩 친구들에게 나누어주려고 합니다. name2이는 몇 명의 친구에게 나누어줄 수 있을까요?,( number0 - number1 ) / number2,6,0,41 5 6 ,정국 남준 
+어떤 수를 number0으로 잘못 나누어 몫이 number1가 나왔다. 바르게 계산하려면 어떤 수를 number2로 나누어야한다고 할 때 바르게 계산한 결과를 구하시오.,( number0 * number1 ) / number2,3,0,6 4 8 ,
+붙임딱지가 number0장씩 number1줄 있습니다. 붙임딱지를 number2명이 number3장씩 나누어 갖는다면 몇 명이 가지게 됩니까?,( number1 * number1 ) / number3,9,0,6 6 1 4 ,
+name0이는 저녁 식사에 number0명을 초대했습니다. 그중 number1명은 오지 않았습니다. 테이블 당 number2명 씩 앉을 수 있다면 총 몇 개의 테이블이 필요합니까?,( number0 - number1 ) / number2,4,0,36.0 20.0 4.0 ,석진 
+name0 number0개를 포장할 때 한 상자에 name1를 number1개씩 담는 경우 상자는 총 몇 개가 필요한가요?,number0 / number1,8,0,64 8 ,사과 
+name0이는 number0 개의 name1이 있습니다. 그가 number1 개를 먹은 뒤 number2개씩 봉투에 담았습니다. 봉투의 개수는 몇개입니까?,( number0 - number1 ) / number2,6,0,78.0 30.0 8.0 ,호석 사탕 
+number0개의 바나나를 number1개씩 나누어주면 몇 사람에게 나누어 줄 수 있습니까?,( number0 / number1 ),6,0,12 2 ,
+name0에는 number0권의 만화책이 있습니다. 한 사람당 number1권씩 나누어 줄 때 총 몇권의 만화책이 있습니까?,number0 / number1,13,0,143.0 11.0 ,도서관 
+"한 바구니에 number0개씩 name0가 들어갑니다. number1개의 name1가 있을 때, 필요한 총 바구니의 갯수는 몇 개입니까?",number1 / number0,265,0,10.0 2650.0 ,사과 
+한번에 number0명씩 탈 수 있는 놀이기구가 있습니다. number1명을 태우기 위해서는 몇 번 운행해야 합니까?,number1 / number0,31,0,16 496 ,
+name0이는 name1 number0개를 사서 number1개를 먹고 남는 name2를 한 봉지에 number2개씩 담아 포장하려고 합니다. 필요한 봉지는 몇장인가요?,( number0 - number1 ) / number2,7,0,62 6 8 ,석진 과자 
+name0는 name1을 사서 그중의 number0만큼을 먹었습니다. 남은 name2이 number1개name3 name4가 먹은 name5은 몇 개입니까?,number1 / ( 1 - number0 ) - number1,54,0,0.6 36 ,은지 사탕 라면 
+오각형이 몇 개 있습니다. 변의 수를 세었더니 모두 number0개였습니다. 오각형은 몇 개 있습니까?,( number0 / 5 ),3,0,15 ,
+키위 number0개를 바구니 number1개에 똑같이 나누어 담고 모둠별로 바구니를 number2개씩 주었습니다. name0네 모둠 number3명의 학생이 바구니에 있는 키위를 똑같이 나누어 가져갔다면 한 사람이 갖게 되는 키위는 몇 개인지 구하시오.,( number0 / number1 ) / number3,2,0,24 3 1 4 ,유나 
+number0명의 사람들이 연필 number1타를 똑같이 나누어 가지려면 한 사람이 받아야하는 연필은 모두 몇 자루인가?,( number1 * 12 ) / number0,8,0,6 4 ,
+name0 number0개를 한 교실 당 number1 개씩 나누어 주었습니다. 총 몇 개의 반에 name1을 나누어 줄 수 있나요?,number0 / number1,7,0,35 5 ,빵 
+name0이는 name1를 number0개 땄습니다. 그 중에서 number1개는 썩어서 버리고 남은 name2를 친구들에게 number2개씩 나누어 주려고 합니다. 몇 명에게 나누어 줄 수 있는지 알려주세요.,( number0 - number1 ) / number2,8,0,60 12 6 ,정국 포도 
+number0마리의 소가 number1개의 우리에 나누어 들어간다고 한다. 한 우리에는 몇 마리의 소가 들어가있을까?,( number0 / number1 ),8,0,24 3 ,
+name0이가 name1을 number0개를 사서 number1개를 먹고 나머지는 친구들에게 number2개씩 똑같이 나누어 주려고 합니다. 몇 명의 친구들에게 나누어 줄 수 있는지 알아내시오.,( number0 - number1 ) / number2,7,0,38 3 5 ,호석 사탕 
+네 박스에 name0이 총 number0개 들어있습니다. 한 박스에 들어있는 name1의 갯수는 몇 개일까요?,number0 / 4,22,0,88 ,귤 
+"name0가 한 상자에 number0병씩 number1상자가 있을 때, number2명에게 name1를 number3병씩 나누어준다면 name2를 받을 수 있는 인원은 얼마인가요?",( number3 * number3 ) / number3,7,0,7 7 1 7 ,주스 
+금붕어 number0마리를 어항 number1개에 똑같이 나누어 담으려고 합니다. 어항 number2개에 금붕어를 몇 마리씩 담아야 할까요?,number0 / number1,3,0,27 9 1 ,
+name0이는 꽃 number0개를 만들기 위해 철사 number1cm를 number2도막으로 똑같이 나누었더니 한 도막의 길이가 number3cm였습니다. name1이도 미영이와 같은 방법으로 철사 number4m를 사용하여 꽃 number5개를 만들려고 합니다. name2이가 꽃 number6개를 만들기 위해 필요한 철사는 몇 m 입니까?,number4 / number5,1.22,0,4 488 4 122 4.88 4 1 ,민영 정국 
+도넛 number0개를 상자 number1개에 똑같이 나누어 담으려고 합니다. 상자 number2개에 도넛을 몇 개씩 담아야 합니까?,( number0 / number1 ),5,0,10 2 1 ,
+말 number0마리가 하루에 name0을 number1개 먹습니다. 모든 말가 매일 똑같은 수의 name1을 먹는다면 말 number2마리가 name2 number3개를 먹는 데 며칠이 걸리는지 구해 보시오.,number3 / ( ( number1 / number0 ) * number2 ),2,0,3 9 5 30 ,당근 
+name0궁화이 한 화분에 number0송이씩 있는 number1개의 화분이 있습니다. name1궁화을 number2명에게 number3송이씩 나누어 주면 몇 명에게 나누어 줄 수 있는지 구하세요.,number3 * number3 / number3,7,0,7 7 1 7 ,무 
+name0이네 농장에서 딴 양파 number0개를 한 상자에 number1개씩 나누어 담고 남은 것은 다 먹었습니다. 양파을 담은 상자가 몇 개인지 쓰시오.,number0 // number1,1,0,92 87 ,정국 
+양파 number0개를 몇 개의 바구니에 똑같이 나누어 담았더니 한 바구니에 number1개씩 들어있습니다. 바구니는 몇 개 있나요?,number0 / number1,3,0,84 28 ,
+딸기맛name0 number0개를 한 봉지에 number1개씩 담으려고 합니다. 봉지는 몇 개 필요합니까?,( number0 / number1 ),4,0,16 4 ,사탕 
+민정이는 name0맛name1 number0개 중 number1개를 먹었다면 민정이가 먹은 name2맛name3은 남아있는 name4맛name5의 몇 name6입니까?,( 1 - number1 / number0 ) / ( number1 / number0 ),3,0,8 2 ,사탕 배 포도 포도맛사탕 배 
+name0이는 number0 개의 초코맛name1이 있습니다. 그가 number1 개를 먹은 뒤 number2개씩 봉투에 담았습니다. 봉투의 개수는 몇개입니까?,( number0 - number1 ) / number2,14,0,123.0 11.0 8.0 ,정국 사탕 초코맛사탕 
+라임 number0개를 바구니 number1개에 똑같이 나누어 담고 모둠별로 바구니를 number2개씩 주었습니다. name0이네 모둠 number3명의 학생이 바구니에 있는 라임를 똑같이 나누어 가져갔다면 한 사람이 받게되는 라임는 몇 개 일까요?,( number0 / number1 ) / number3,3,0,54 6 1 3 ,호석 
+name0는 물에 name1 원액 number0mname2를 넣어 name3name4 number1mname5를 만들었습니다. name6가 만든 name7name8에서 name9name10 양에 대한 name11 원액 양의 비율을 구하시오.,number0 / number1,0.4,0,200 500 ,새별 L 수박 주스 
+name0이는 number0㎝의 밧줄로 고춧대를 묶으려고 합니다. 밧줄을 number1㎝씩 잘라서 고춧대를 묶는다면 고춧대를 몇 개까지 묶을 수 있습니까?,number0 // number1,4,0,348 70 ,광수 
+"name0이는 number0개의 햄버거를 갖고 있습니다. 그가 한 사람당 number1개를 주었을 때, 총 몇 명에게 줄 수 있습니까?",number0 / number1,6,0,30.0 5.0 ,민하 
+"name0이는 시간당 number0마일, 총 number1 마일을 이동했습니다. name1이는 몇 시간 동안 이동했습니까?",number1 / number0,5,0,4.0 20.0 ,쯔위 
+name0이는 위인전 number0쪽을 일주일 동안 매일 똑같이 나누어 읽었습니다. name1이가 하루에 읽은 위인전의 쪽수를 쓰시오.,number0 / 7,8,0,56 ,쯔위 
+정호이는 아빠와 함께 마트에서 name0을 사가지고 와서 number0조각으로 잘라 number1명의 식구가 똑같이 나누어 먹었습니다. number2명이 먹은 name1은 몇 조각인지 쓰시오.,number0 / number1,3,0,15 5 1 ,수박 
+name0네 가족이 독도 여행을 가기 위해 필요한 돈은 number0만 원입니다. 지금부터 매월 number1만 원씩 여행에 필요한 돈을 모으기로 했다면 몇 개월이 걸립니까?,number0 / number1,8,0,240 30 ,진솔 
+name0이는 name1 number0개를 동생과 나누어 가지려고 합니다. name2이와 동생이 name3를 똑같이 가지려면 각각 몇 개씩 가져야 할까요?,number0 // 2,7,0,14 ,정국 수박 
+"number0, number1, number2, number3, number4 중에서 가장 큰 수를 가장 작은 수로 나눈 몫을 구해 보세요.","max( number0 , number1 , number2 , number3 , number4 ) // min( number0 , number1 , number2 , number3 , number4 )",5,0,4 6 8 14 20 ,
+"name0는 number0개에 number1,number2원이고 name1은 number3개에 number4원입니다. name2 number5개는 name3 number6개보다 얼마나 더 비싼 지 구해보시오.",4850 / number0 - number4 / number3,260,0,5 4 850 4 2840 1 1 ,사탕 과자 
+선물 포장 number0개를 하는데 number1㎝의 끈이 필요합니다. 만약 끈이 number2㎝가 있다면 몇 개의 선물을 포장할 수 있는지 쓰시오.,number2 // number1,43,0,1 50 2153 ,
+어머니께서 name0를 number0개 사오셨습니다. 집에 number1개를 남겨두고 할머니 number2분께 똑같게 나누어 드리려고 합니다. 한 할머니에게 나누어 드릴 name1의 개수는?,( number0 - number1 ) / number2,5,0,34 4 6 ,배 포도 배 
+"맞물려 돌아가는 두 톱니바퀴가 있습니다. 톱니바퀴 name0의 톱니 수는 number0개, 톱니바퀴 name1의 톱니 수는 number1개입니다. 톱니바퀴 name2를 number2바퀴 회전시킬 때 톱니바퀴 name3는 몇 바퀴 회전합니까?",( number0 * number2 ) / number1,39,0,9 24 104 ,(가) (나) 
+name0이가 가진 연필의 길이는 number0mm입니다. name1이의 연필의 길이는 몇 cm입니까?,number0 / 10,8.7,0,87 ,민영 
+길이가 number0cm인 철사를 사용하여 가장 큰 정육각형 number1를 만들었습니다. 만든 정육각형의 한 변은 몇 cm입니까?,number0 / 6,9,0,36 1 ,
+name0구 시합을 하기 위해 number0명이 모였습니다. 한 팀을 number1명씩으로 하면 몇 팀이 되는지 쓰시오.,number0 / number1,4,0,24 6 ,배 배 
+전체가 number0쪽인 동화책을 number1쪽까지 읽었습니다. 남은 책을 일주일 동안 매일 같은 양씩 읽어서 모두 읽으려고 합니다. 하루에 읽어야 하는 책은 몇쪽인가요?,( number0 - number1 ) / 7,8,0,100 44 ,
+개당 number0원인 name0은 number1개일 때 얼마입니까?,number1 * number0,2448,0,18.0 136.0 ,사탕 
+오늘 과일 가게에서 한 상자에 number0개씩 들어 있는 name0을 number1상자 팔았습니다. 오늘 판 name1은 모두 몇 개입니까?,number0 * number1,48,0,4 12 ,수박 
+모서리의 길이가 같은 삼각뿔과 사각기둥이 있습니다. 삼각뿔의 모서리의 길이의 합이 number0cm일 때 사각기둥의 모서리의 길이의 합은 몇 cm입니까?,2 * number0,24,0,12 ,
+name0이의 학교 운동장의 한 바퀴는 number0m입니다. name1이는 오늘 number1바퀴를 뛰었고 어제는 number2바퀴를 뛰었습니다. 은영이가 어제 학교 운동장을 뛴 거리는 총 몇 m입니까?,number0 * number2,7533,0,93 92 81 ,남준 
+number0명씩 number1줄로 선 사람들에게 한 사람 당 공책을 number2권씩 나누어주었다면 나누어 준 공책은 모두 몇 권인가?,number0 * number1 * number2,228,0,19 4 3 ,
+name0는 number0과 number1의 곱입니다. name1는 얼마입니까?,number0 * number1,42,0,7 6 ,B 
+"number0개의 상자가 있습니다. 한 상자에는 name0이 number1개 들어있다고 할 때, name1은 모두 몇 개일까요?",number1 * number0,8640,0,90 96 ,감 
+"number0봉지에 들어 있는 name0의 개수를 구하려고 하는데, name1이 한 봉지에 number1개씩 들어있다고 합니다. 구하고자 하는 name2의 개수는 모두 몇 개 입니까?",number1 * number0,36,0,9 4 ,귤 
+name0이는 총 number0개의 name1를 갖고 있고 name2이에게 number1개를 주고 name3 number2개당 number3원에 팔았습니다. 총 얼마를 벌었습니까?,number3 * ( number0 - number1 ),27,0,15.0 6.0 1 3.0 ,정국 유정 사과 
+name0이의 형의 나이는 number0세이고 name1이의 할아버지 나이는 name2이 형의 나이의 number1name3이다. name4이 할아버지의 나이를 구해라.,number0 * number1,78,0,13 6 ,석진 배 배 
+"number0, number1, number2, number3 중에서 number4번째로 큰 수와 가장 큰 수의 곱을 구해 보세요.","sorted( [ number0 , number1 , number2 , number3 ] , reverse = True ) [0] * sorted( [ number0 , number1 , number2 , number3 ] , reverse = True ) [1]",60,0,5 0.5 12 4.1 2 ,
+상자 number0에 number1개의 곶name0이 포장되어있습니다. 상자 number2개에는 몇 개의 곶name1이 있겠습니까?,number1 * number2,225,0,1 25 9 ,감 
+name0이가 케이크 number0개를 만드는데 name1 number1개가 필요합니다. number2개의 파이를 만드는데 몇 개의 name2가 필요합니까?,number1 * number2,54,0,1 3.0 18.0 ,민영 사과 포도 
+"number0권의 책을 읽은 name0이가 읽은 각 책은 number1장 일 때, 총 몇장을 읽었습니까?",number0 * number1,68,0,4.0 17.0 ,정국 
+number0개의 김치를 만들려고 하는데 김치 number1를 만들려면 name0추 number2개가 필요합니다. 몇 개의 name1추가 필요한가요?,number2 * number0,80,0,10 1 8 ,배 배추 배 
+name0이 number0개씩 number1바구니 있습니다. name1의 개수는 몇 개일까요?,number0 * number1,305,0,61 5 ,달걀 
+토끼가 number0마리에 number1원 일때 number2마리는 총 얼마입니까?,number1 * number2,12,0,1 2.0 6.0 ,
+"name0박스 number0개를 가진 name1이가 number1개의 name2를 동생에게 주고, 각 name3박스에는 number2개의 name4가 들어있습니다. 총 name5의 갯수는 몇 개 입니까?",number2 * ( number0 - 3.0 ),12,0,9.0 3 2.0 ,유정 사과 
+한 사람이 name0 number0개를 가지고 있다. number1명이 가지고 있는 name1의 개수는 모두 몇 개인가?,number0 * number1,159,0,53 3 ,사탕 
+꽃집에서 한 다발에 number0송이씩 들어 있는 해바라기를 number1다발 팔았습니다. 해바라기를 모두 몇 송이 팔았습니까?,number0 * number1,45,0,15 3 ,
+한 상자에 name0이 number0개씩 들어 있습니다. number1상자가 있다면 name1의 개수는 몇 개일까?,number0 * number1,140,0,20 7 ,빵 
+개미에는 다리가 number0개 있습니다. number1마리의 개미에게는 몇 개의 다리가 있습니까?,number0 * 2.0,12,0,6.0 2 ,
+한 상자에 number0개씩 들어 있는 젤리가 number1상자 있습니다. number2상자에 들어 있는 젤리는 모두 몇 개인가요?,number0 * number2,135,0,27 5 5 ,
+복숭아가 number0개씩 number1줄로 마트에 전시되어 있습니다. 마트에 전시된 복숭아의 총 갯수는 얼마인가요?,number0 * number1,1500,0,25 60 ,
+name0이는 name1을 하루에 number0개씩 먹습니다. name2이가 number1일 동안 먹은 name3은 모두 몇 개입니까?,number0 * number1,8,0,2 4 ,남준 수박 
+name0에 number0를 곱해야하는데 잘못하여 더했더니 number1이 되었습니다. 바르게 계산한 값은 얼마인가요?,( number1 - number0 ) * number0,812,0,4 207 ,A 
+"name0는 number0,number1원을 갖고 있습니다. 문구점에서 number2원짜리 연필 number3자루와 number4원짜리 공책 number5권을 샀습니다. 남은 돈은 얼마인지 구하세요.",1000 - number2 * number3 - number4 * number5,175,0,1 000 125 1 350 2 ,유나 
+꽃집에서 한 다발에 number0송이씩 들어 있는 카네이션을 number1다발 팔았습니다. 카네이션을 모두 몇 송이 팔앗습니까?,number0 * number1,100,0,5 20 ,
+number0명의 학생들이 가위바위보를 합니다. 모두 보를 냈을 때 펼친 손가락은 몇 개인가요?,number0 * 5,30,0,6 ,
+number0개의 name0가 있는 박스가 number1박스 있을 때 name1는 모두 몇 개입니까?,number0 * number1,90,0,45 2 ,사과 
+한 대에 number0명씩 탈 수 있는 name0가 있습니다. 이 name1 number1대에 탈 수 있는 인원은 모두 몇 명인가요?,number0 * number1,145,0,29 5 ,버스 
+name0가 number0상자 있을 때 number1상자를 팔았다. 한 상자에 number2개의 name1가 있다면 남아있는 name2는 모두 몇 개인가?,( number0 - number1 ) * number2,96,0,60 48 8 ,사과 
+"name0 가게에서는 number0개의 name1이 있고 name2 number1개당 number2 칼로리 일때, 총 몇 칼로리 입니까?",number0 * number2,341,0,31.0 1 11.0 ,사탕 
+number0개의 봉지가 있습니다. 한 봉지에는 name0이 number1개 들어있습니다. name1은 모두 몇 개일까요?,number1 * number0,2623,0,61 43 ,귤 
+한번에 number0명씩 탈 수 있는 놀이기구가 있습니다. 빈자리 없이 number1번 운행하면 모두 몇 명이 탈 수 있습니까?,number0 * number1,496,0,16 31 ,
+어떤 수에 number0를 곱해야할 것을 더하였더니 number1가 되었다. 바르게 계산한 값을 구해라.,( number1 - number0 ) * number0,3780,0,45 129 ,
+number0개의 마트가 있고 number1의 마트에는 name0가 number2개 있습니다. name1는 모두 몇 개일까요?,number2 * number0,968,0,88 1 11 ,사과 
+학생들이 한 줄에 number0명씩 number1줄로 서 있습니다. 줄을 서 있는 학생은 모두 몇 명입니까?,number0 * number1,50,0,10 5 ,
+"선생님께서 number0원짜리 아이스크림을 학생 number1명에게 number2개씩 나누어 주려고 할 때, 모두 얼마인지 쓰시오.",number0 * number1,5396,0,76 71 1 ,
+꽃집에서 한 다발에 number0송이씩 들어 있는 튤립을 number1다발 팔았습니다. 튤립을 모두 몇 송이 팔았습니까?,number0 * number1,10,0,2 5 ,
+name0이네 학교 number0학년은 모두 number1학급이고 각 학급의 학생 수는 number2명이다. name1이네 학교 number3학년 학생은 모두 몇 명인지 써라.,number1 * number2,243,0,3 9 27 3 ,남준 
+name0 아버지의 나이는 올해 number0살입니다. name1 할아버지의 나이는 아버지 나이의 number1name2입니다. 할아버지의 나이는 몇 살일까요?,number0 * number1,86,0,43 2 ,유나 배 배 
+name0이는 한 시간에 number0킬로미터를 갈 수 있습니다. number1시간 만에 몇 킬로미터를 갈 수 있습니까?,number0 * number1,440,0,55.0 8.0 ,남준 
+한 반 학생에 number0명씩 모두 number1개의 반이 있습니다. 한 사람이 하루에 name0 한 곽씩 마신다면 number2일동안 number3학년 학생들이 마신 name1는 모두 몇 곽인지 구하시오.,number0 * number1 * number2,1600,0,32 10 5 3 ,우유 
+책꽂이 한 칸에 number0권의 책을 꽂을 수 있습니다. number1칸의 책꽂이에 꽂을 수 있는 책은 모두 몇 권입니까?,number0 * number1,117,0,13 9 ,
+name0이는 딱지 number0개씩 number1묶음 가지고 있다. name1이가 가진 딱지는 모두 몇 장인지 구하시오.,number0 * number1,7360,0,92 80 ,호석 
+number0개의 상자가 있습니다. 한 상자에는 name0가 number1개 들어있습니다. name1는 모두 몇 개일까요?,number1 * number0,5680,0,80 71 ,오이 
+정사각형 모양의 밭이 있습니다. 가로의 길이가 number0m일 때 이 밭의 number1레의 길이는 몇 m인지 구하시오.,number0 * 4,96,0,24 2 ,
+모래 상자의 가로 길이가 number0cm 입니다. 이러한 모래 상자가 number1개 있을때 총 길이는 몇 cm입니까?,number0 * number1,3936,0,123.0 32.0 ,
+서울에서 대구까지의 거리는 number0km입니다. number1시간에 number2km를 가는 name0로 서울에서 출발하여 대구까지 가려고 합니다. number3시간을 갔다면 남은 거리는 몇 km인지 구하시오.,number0 - ( number2 * number3 ),126,0,296 1 85 2 ,자동차 
+name0이 number0개씩 number1줄 있었는데 이 중에서 name1 number2개를 먹었습니다. 현재 남은 name2은 몇 개인가요?,number0 * number1 - number2,159,0,8 21 9 ,귤 
+상자에 name0가 한 줄에 number0개씩 number1줄 들어있습니다. 상자에 들어있는 name1는 모두 몇 개인가?,number0 * number1,40,0,8 5 ,음료수 
+name0이는 체리를 하루에 number0개씩 먹습니다. name1이가 number1일 동안 먹은 체리는 모두 몇 개입니까?,number0 * number1,231,0,33 7 ,민영 
+"name0이는 number0개의 name1 풍선을 갖고 있습니다. name2는 name3이보다 number1name4가 더 많은 풍선을 갖고 있을 때, name5는 몇개의 풍선을 갖고 있습니까?",number0 * number1,18,0,6.0 3.0 ,유정 은지 파란색 배 배 
+name0는 name1을 number0개 사서 몇 개는 동생에게 주고 나머지 name2을 친구 number1명에게 number2개씩 똑같이 나누어 주려고 합니다. 동생에게 name3을 몇 개 줘야 할까요?,number0 - number2 * number2,85,0,89 2 2 ,민영 사탕 
+"name0이는 총 number0문제를 풀었습니다. 한 문제당 number1점일 때, name1이가 얻은 점수는 총 몇 점입니까?",number1 * number0,40,0,10 4.0 ,호석 
+name0이 한 판에 number0개씩 들어있습니다. number1판에 들어있는 name1은 모두 몇 개입니까?,number0 * number1,1200,0,30 40 ,달걀 
+놀이공원에 있는 number0차의 초등학생 요금은 number1원입니다. 초등학생 number2명이 number3차를 타려면 얼마를 내야합니까?,number1 * number2,3750,0,10 750 5 10 ,
+어머니께서 name0을 number0묶음을 사오셨습니다. 한 묶음에 number1개의 name1이 있을 때 어머니께서 사 오신 name2은 모두 몇 개일까요?,number0 * number1,50,0,5 10 ,달걀 
+"name0을 name1이는 name2이의 number0name3를 가지고 있습니다. name4이는 name5을 number1개 가지고 있을 때, name6이가 가지고 있는 name7은 모두 몇 개일까요?",number0 * number1,15,0,5 3 ,민영 호석 사탕 배 배 
+name0가 든 name1병의 name2게는 number0kg입니다. 빈 name3병의 name4게가 number1kg 이라고 할 때 name5병에 들어있는 name6는 몇 g 일까?,( number0 - number1 ) * 1000,520,0,0.87 0.35 ,무 우유 
+한 봉지에 number0개씩 들어 있는 푸딩가 number1봉지 있습니다. 그 중에서 몇 개를 먹었더니 number2개가 남았습니다. 먹은 푸딩는 몇 개일까요?,number0 * number1 - number2,50,0,40 2 30 ,
+치즈name0이 한줄에 number0개씩 number1줄 있습니다. 이중에서 치즈name1 number2알을 먹었다면 남은 치즈name2은 몇 개인가요?,number0 * number1 - number2,284,0,8 36 4 ,김밥 
+"number0개의 가방이 있습니다. 가방에는 치즈name0이 number1개 들어있다고 할 때, 치즈name1은 모두 몇 개일까요?",number1 * number0,1216,0,64 19 ,김밥 
+"채소 가게에 고구마가 number0개, 방울name0가 number1개 있습니다. 고구마를 한 봉지에 number2개씩 담아 number3봉지를 팔았습니다. 남은 고구마는 몇 개일까요?",number0 - number2 * number3,50,0,80 30 10 3 ,토마토 
+number0개의 돼지name0자가 있는 상자가 총 number1개가 있다면 총 몇개의 돼지name1자가 있습니까?,number0 * 3.0,12,0,4.0 3 ,감 
+name0이네 학교 number0학년에는 한 반에 number1명씩 number2개 반이 있습니다. number3학년 학생 전체에게 양파을 number4개씩 나누어 주려고 하면 양파은 몇개가 필요한가?,number1 * number2 * number4,168,0,3 21 4 3 2 ,민영 
+name0이가 number0개의 양파를 요리해야 합니다. 그는 이미 number1개를조리했습니다. 각 양파를 요리하는데 number2분이 걸리면 나머지를 요리하기 위해 얼마나 걸립니까?,number2 * ( number0 - number1 ),63,0,15.0 8.0 9.0 ,석진 
+딸기맛name0이 한 봉지에 number0개씩 들어 있습니다. number1봉지에 들어있는 딸기맛name1은 모두 몇 개입니까?,number0 * number1,76,0,38 2 ,사탕 
+어린이 number0명에게 딸기맛name0을 number1개씩 나누어 주려고 합니다. 딸기맛name1이 number2개 있다면 몇 명의 어린이가 못 받을까요?,number0 - number1 * number2,8,0,16 1 8 ,사탕 
+name0맛name1이 한 봉지에 number0개씩 들어 있습니다. number1봉지에 들어있는 name2맛name3은 모두 몇 개입니까?,number0 * number1,156,0,4 39 ,사탕 포도 포도맛사탕 
+"어린이 number0명에게 name0맛name1을 number1개씩 나누어 주려고 할 떄, name2맛name3이 number2개 있다면 몇 개 더 필요한지 구하세요.",number0 * number1 - number2,8,0,16 1 8 ,사탕 포도 포도맛사탕 
+한 바구니에 number0개의 name0맛name1이 있는 바구니가 number1개 있습니다. number2명이 name2맛name3 number3씩을 가져갔다면 남아있는 name4맛name5은 모두 몇 개입니까?,( number0 * number1 ) % number2,34,0,18 4 38 1 ,사탕 포도 포도맛사탕 
+어린이 number0명에게 name0맛name1을 number1개씩 나누어 주려고 합니다. name2맛name3이 number2개 있다면 몇 명의 어린이만 받게 될까요?,number1 * number2,8,0,16 1 8 ,사탕 포도 포도맛사탕 
+초코맛name0이 한 봉지에 number0개씩 들어 있습니다. number1봉지에 들어있는 초코맛name1은 모두 몇 개입니까?,number0 * number1,80,0,20 4 ,사탕 초코맛사탕 
+name0네 학교 number0학년은 한 반에 number1명씩 number2개 반이 있습니다. number3학년 학생들에게 초코맛name1을 number4개씩 나누어 주려고 합니다. 초코맛name2은 모두 몇 개 필요합니까?,3 * number2 * number4,150,0,2 30 10 2 5 ,은지 사탕 초코맛사탕 
+"name0이는 name1맛name2을 number0개 가지고 있습니다. name3이는 name4이의 number1name5를 가지고 있을 때, name6이가 가지고 있는 name7맛name8은 모두 몇 개일까요?",number0 * number1,15,0,3 5 ,민영 호석 사탕 사과 배 사과맛사탕 배 
+name0이네 학교 number0학년은 한 반에 number1명 씩 number2개의 반이 있습니다. number3학년 학생들에게 메론맛name1을 number4개씩 나누어 주려고 합니다. 메론맛name2은 모두 몇 개 필요합니까?,number1 * number2 * number4,320,0,1 32 2 1 5 ,태형 사탕 메론맛사탕 
+어린이 number0명에게 메론맛name0을 number1개씩 나누어 주려고 합니다. 메론맛name1이 number2개 있다면 메론맛name2을 나누어 준 후 몇 개가 남을까요?,number2 - number0 * number1,8,0,16 1 24 ,사탕 메론맛사탕 
+name0이는 number0송이의 name1를 갖고 있습니다. 각 name2에는 number1개의 알이 있을 때 총 알의 갯수는 몇 개 입니까?,number0 * number1,45,0,5 9.0 ,지민 사과 
+name0 어머니의 나이는 올해 number0살입니다. name1 이모 할머니의 나이는 어머니 나이의 number1name2입니다. 이모 할머니의 나이는 몇 살일까요?,number0 * number1,63,0,42 1.5 ,새별 배 배 
+name0가 사는 아파트는 number0개의 동으로 나누어져 있습니다. 한 동의 가구 수가 number1 가구name1 모두 몇 가구가 살고 있는지 옳게 구한 것은 어느 것입니까?,number0 * number1,330,0,11 30 ,새별 라면 
+"name0이는 number0원의 햄버거를 구입했습니다. 그녀가 햄버거를 number1개 주문 하였을 때, 지불한 총 금액은 얼마입니까?",number1 * number0,24,0,8.0 3 ,광수 
+name0이와 name1이가 가위바위보를 하는데 number0 다 바위를 냈다. 펼친 손가락은 몇 개인가?,0 * number0,0,0,2 ,석진 재석 
+서점에는 책을 number0권씩 꽂인 책꽂이가 number1개 있습니다. name0이네 서점에 있는 책은 모두 몇 권입니까?,number0 * number1,448,0,112 4 ,재석 
+name0이는 공원 number0레에 있는 number1m 길이의 산책로를 number2바퀴 걸었습니다. name1이가 걸은 거리는 모두 몇 m입니까?,number1 * number2,248,0,2 62 4 ,재석 
+name0이네 집에 name1 바구니가 number0바구니 있습니다. 한 바구니에 name2가 number1개씩 있다면 name3이네 집에 있는 name4의 개수는 모두 몇 개입니까?,number0 * number1,75,0,3 25 ,쯔위 사과 
+"name0이는 number0개의 상자를 갖고 있습니다. 각 상자에는 name1 number1개씩 들어있을때, 총 name2의 개수는 몇 개 입니까?",number0 * number1,54,0,9.0 6 ,쯔위 수박 
+name0이는 어버이날 부모님께 드릴 카네이션을 만들기 위해 종이 number0장씩 number1묶음을 샀습니다. name1이가 산 종이는 모두 몇 장입니까?,number0 * number1,48,0,24 2 ,진범 
+"name0이는 나뭇 가지 각각에서 number0마리의 새를 보았습니다. 총 나뭇 가지가 number1그루 있을 때, name1이는 총 몇 마리의 새를 보았습니까?",number0 * number1,12,0,1 12 ,태준 
+"정호이는 number0개의 스티커를 샀고, name0는 number1개의 스티커를 샀습니다. 총 몇 개의 스티커를 샀습니까?",number0 * number1,220,0,10.0 22.0 ,유나 
+정호이가 아파트에서 name0까지 거리를 측정했을 때 number0 피트가 나왔습니다. number1name1를 더 간다면 몇 피트입니까?,number0 * number1,120,0,30 4 ,도서관 배 배 
+name0이는 하루에 number0권의 책을 읽습니다. number1일동안 몇 권의 책을 읽습니까?,number0 * number1,15,0,5.0 3.0 ,진범 
+name0이는 하루에 줄넘기를 number0개씩 합니다. name1이가 number1일 동안 한 줄넘기는 모두 몇개 인가요?,number0 * number1,48,0,12 4 ,진범 
+"name0이는 number0개의 꽃다발을 구매했습니다. number1개의 꽃다발 당 number2송이의 꽃이 들어있다면, 총 몇 송이의 꽃이 있습니까?",number2 * number0,2916,0,9.0 1 324.0 ,민하 
+"name0는 number0개의 비디오 게임을 갖고 있습니다. name1가 name2이에게 number1개를 주고, 비디오 게임 number2개당 number3분의 시간이 걸릴때, name3는 총 몇 분동안 게임을 할 수 있습니까?",number3 * ( number0 - number1 ),30,0,15.0 9.0 1 5 ,정국 송찬 
+"name0는 name1 number0 상자를 구입하고 동생에게 number1개의 name2를 주었습니다. 각 상자에는 number2개의 name3가 들어 있다고 할 때, name4가 가진 name5의 개수는 몇 개 입니까?",number2 * ( number0 - number1 ),21,0,12.0 5.0 3.0 ,송찬 과자 
+"한 문제당 number0점인 시험이 있습니다. name0는 총 number1개의 문제를 풀었을 때, name1의 시험 점수는 몇 점 입니까?",number1 * number0,21,0,7.0 3.0 ,송찬 
+name0이네 양계장에서 암탉들이 number0일 동안 하루에 낳은 name1 수의 평균이 number1개일 때 number2일 동안 낳은 name2은 모두 몇 개입니까?,number2 * number1,295,0,5 59 5 ,태형 달걀 
+"name0이는 number0,number1원을 가지고 있습니다. 마트에서 number2,number3원짜리 name1 number4개와 number5,number6원짜리 name2 number7개를 샀습니다. 남은 돈은 얼마입니까?",5500 - 1000 * number5 - 2300 * number7,1200,0,5 500 1 000 2 2 300 1 ,정국 빵 라면 
+어떤 수를 number0로 나누었더니 몫이 number1이었습니다. 어떤 수를 구하시오,number0 * number1,90,0,15 6 ,
+한 학급에 피구공이 number0개씩 있습니다. number1개의 학급에는 모두 몇 개의 피구공이 있을까요?,number0 * number1,228,0,6 38 ,
+"카네이션을 하루에 number0개씩 접으려고 합니다. number1주일에 number2일씩, number3주 동안 접을 수 있는 카네이션은 모두 몇 개입니까?",number0 * number2 * number3,588,0,14 1 7 6 ,
+한 상자에 number0개씩 들어 있는 색연필 number1상자 있습니다. number2상자에 들어 있는 색연필은 모두 몇 개인가요?,number0 * number2,56,0,14 4 4 ,
+구슬이 number0개 있습니다. 구슬을 한 상자에 number1개씩 담아 number2상자 팔았다면 남은 구슬은 몇 개입니까?,number0 - ( number1 * number2 ),6,0,120 6 19 ,
+name0는 하루에 피자를 number0조각 먹을 수 있습니다. number1일동안 몇 조각의 피자를 먹을 수 있습니까?,number0 * number1,20,0,5 4 ,은지 
+딸기맛name0이 number0개씩 number1줄로 놓여 있습니다. 딸기맛name1은 모두 몇 개입니까?,number0 * number1,24,0,6 4 ,사탕 
+"name0맛name1은 number0개에 number1원 입니다. 통에 number2개의 name2맛name3이 있고, name4이가 number3개를 먹었다면 총 얼마의 name5맛name6이 있습니까?",number1 * ( number2 - number3 ),16,0,1 4.0 11.0 7.0 ,건우 사탕 포도 포도맛사탕 
+name0이는 number0에 number1을 곱해야 하는데 잘못하여 number2을 곱하였습니다. name1이가 잘못하여 계산한 값과 옳게 계산한 값의 차를 구하시오.,abs( number0 * number2 - number0 * number1 ),10080,0,224 16 61 ,건우 
+name0는 number0원을 가지고 number1원짜리 초콜릿 number2개와 number3원짜리 참치name1 number4줄을 샀다. 남은 돈은 얼마인지 구하시오.,number0 - number1 * number2 - number3 * number4,4000,0,12000 1000 4 2000 2 ,쯔위 김밥 
+"number0개의 지갑을 가지고 있는 name0가 그 중 number1개를 팔았을 때, 총 몇개의 지갑을 갖고 있습니까?",number0 - number1,45,0,126.0 81.0 ,윤기 
+"number0, number1, number2, number3 중에서 가장 큰 수와 가장 작은 수의 뺄셈을 구해라.","max( number0 , number1 , number2 , number3 ) - min( number0 , number1 , number2 , number3 )",68,0,61 4 7 72 ,
+name0이의 몸name1게는 아버지의 몸name2게보다 number0kg 가볍습니다. 아버지의 몸name3게가 number1kg이면 name4이의 몸name5게는 몇 kg일까요?,number1 - number0,31.85,0,29.85 61.7 ,석진 무 
+"name0이는 네모 모양 조각 number0개, 세모 모양 조각 number1개를 가지고 있습니다. 이 중에서 네모 모양 조각 number2개를 동생에게 주었습니다. name1이가 가지고 있는 네모 조각은 모두 몇 개입니까?",number0 - number2,7,0,57 55 50 ,호석 
+학교 운동장에 학생들이 번호 순서대로 서 있습니다. name0이는 number0번이고 name1이는 number1번입니다. 두 학생 사이에 있는 학생들은 몇 명인가요?,abs( number1 - number0 ) - 1,4,0,27 32 ,민영 지민 
+수영장에 어린이와 어른을 합하여 모두 number0명 있습니다. 그 중 어른이 number1명입니다. 강아지는 number2마리입니다. 그렇다면 수영장에 있는 어린이는 몇 명입니까?,number0 - number1,348,0,537 189 10 ,
+number0명의 학생들이 한 줄로 줄을 섰습니다. name0이의 뒤에 number1명의 학생들이 서 있습니다. name1이의 앞에 서 있는 학생은 몇 명입니까?,number0 - number1 - 1,2,0,17 14 ,정국 
+"name0이의 책장에는 그림책이 number0권, 위인전이 number1권 꽂혀 있습니다. name1이의 책장에 꽂혀 있는 그림책은 위인전보다 몇 권 더 많나요?",number0 - number1,21,0,75 54 ,민영 
+연경이는 number0개의 풍선이 있고 name0이에게 number1개를 주었습니다. 연경이는 몇개의 풍선을 갖고 있습니까?,number0 - number1,642,0,765.0 123.0 ,유정 
+"학교 텃밭에서 number0린 방울name0가 number1개 중, number2학년이 number3개를 따먹고 number4학년이 number5개를 따먹었습니다. name1는 모두 몇 개가 남았을까요?",number1 - number3 - number5,89,0,10 528 1 142 3 297 ,토마토 
+"축구팀에서 가장 키가 큰 선수는 number0cm입니다. 가장 키가 작은 선수는 number1cm일 때, 가장 키가 큰 선수와 작은 선수의 키 차이는 몇 cm인가요?",number0 - number1,9.5,0,77.75 68.25 ,
+"그림 그리기 대회에 name0이 number0명, name1이 number1명 참가했습니다. name2은 name3보다 몇 명 더 많이 참가했는가?",number0 - number1,106,0,324 218 ,남학생 여학생 
+어떤 수에서 number0을 빼야할 것을 잘못하여 더했더니 number1가 되었습니다. 바르게 계산하면 얼마인가?,( number1 - number0 ) - number0,233,0,178 589 ,
+"name0이는 초콜릿 number0개를 가지고 있었는데 언니에게 number1개를 주고, 동생에게 number2개를 주었습니다. name1이에게 남은 초콜릿은 몇 개일까요?",number0 - number1 - number2,6,0,14 5 3 ,유정 
+name0는 number0 갤런의 오일을 갖고 있습니다. 공사를 하는 동안 number1 갤런의 오일이 누출 되었다면 남은 오일은 몇 갤런 입니까?,number0 - number1,3731,0,6206.0 2475.0 ,은지 
+number0년은 number1일입니다. 작년 어느 지역에 비가 온 날이 number2일이었다면 비가 오지 않은 날은 며칠입니까?,number1 - number2,168,0,1 365 197 ,
+number0명의 학생들이 한 줄로 줄을 섰습니다. name0이의 뒤에 number1명의 학생들이 서 있습니다. name1이의 앞에 서 있는 학생은 몇 명입니까?,( number0 - number1 - 1 ),7,0,11 3 ,지민 
+"number0, number1, number2, number3 중 가장 큰 수와 가장 작은 수로 뺄셈을 구해라.","max( number0 , number1 , number2 , number3 ) - min( number0 , number1 , number2 , number3 )",46,0,69 44 32 23 ,
+"name0이네 모둠 학생 number0명이 한 줄로 서 있고 name1이는 number1째, name2이는 number2째에 서 있다면 name3이와 name4이 사이에는 몇 명이 서 있는 것일까요?",number2 - number1 - 1,3,0,9 5 9 ,민영 남준 
+name0이는 과수원에서 name1를 어제는 number0개 땄고 오늘은 number1개 땄습니다. name2이는 name3를 오늘보다 어제 얼마나 더 적게 땄을까요?,abs( number0 - number1 ),21,0,31 52 ,남준 사과 
+냉장고에 들어 있는 name0 name1 number0개와 갈색 name2 number1개 중에서 number2개를 먹었습니다. name3 name4을 number3개 먹었다면 냉장고에 남아있는 갈색 name5은 몇 개인가요?,number1 - ( number2 - number3 ),17,0,5 24 12 5 ,흰색 달걀 
+name0는 number0장의 카드가 있습니다. number1장을 땅에 버렸을 때 몇 장의 카드가 남아있습니까?,number0 - number1,11,0,72.0 61.0 ,유나 
+"number0개의 수 number1, number2, number3, number4이 있습니다. 이 name0number5에서 number6보다 큰 수는 몇 개인지 구하시오.","number0 - sorted( [ number1 , number2 , number3 , number6 ] ).index( number6 ) - 1",3,0,4 83.28 46 24.77 18 10 18 ,배 배 
+"name0이는 number0개의 name1 중에서 number1개를 먹었습니다. 이 때, 남아있는 name2은 몇 개 인가요?",number0 - number1,5,0,18 13 ,유정 귤 
+"name0는 number0 마리의 물고기를 갖고 있습니다. number1마리의 물고기를 풀어주었을 때, name1가 갖고 있는 물고기는 총 몇마리 입니까?",number0 - number1,60,0,280.0 220.0 ,은지 
+"number0, number1, number2, number3 중에서 가장 큰 수와 가장 작은 수의 차를 구해 보세요.","max( number0 , number1 , number2 , number3 ) - min( number0 , number1 , number2 , number3 )",15,0,3 6 12 18 ,
+number0명의 어린이가 한 줄로 서있습니다. name0이가 앞에서 number1째에 서 있다면 name1이의 뒤에는 몇 명의 어린이가 서 있을까요?,number0 - number1,5,0,8 3 ,민영 
+꿀벌은 number0의 꿀을 생산했지만 name0이가 number1의 꿀을 빼앗았습니다. 얼마나 많은 꿀이 남아 있습니까?,number0 - number1,0.31,0,0.36 0.05 ,민영 
+"name0이는 number0개의 조개와 number1개의 불가사리를 발견했습니다. number2개의 조개를 바다에 뿌렸을 때, name1이가 가진 조개는 몇 개 입니까?",number0 - number2,2,0,6.0 4.0 4.0 ,석진 
+name0에서 출발하는 name1에 number0명이 탔습니다. 다음 역에서 number1명이 내리고 새로 탄 사람은 없었습니다. 현재 name2에 탄 인원은 총 몇 명인가요?,number0 - number1,167,0,343 176 ,(가) 기차 
+name0을 name1이는 number0개 name2이는 name3이보다 number1개 더 적게 가지고 있습니다. name4이가 가지고 있는 name5은 몇 개 인가요?,number0 - number1,3,0,5 2 ,남준 호석 사탕 
+name0이는 빨간name1 초록name2 총 number0개를 갖고 있습니다. 빨간name3가 number1개name4 총 몇개의 초록name5를 갖고 있습니까?,number0 - number1,5703,0,9570.0 3867.0 ,지민 사과 라면 
+number0에서 어떤 수를 빼야 할 것을 잘못하여 더했더니 number1가 되었습니다. 바르게 계산하면 얼마입니까?,number0 - ( number1 - number0 ),4.2,0,7.1 10 ,
+밤이 number0개 중 name0이가 밤을 number1개 먹으면 밤은 몇 개 남을까요?,number0 - number1,8,0,10 2 ,태형 
+학급 문고에 책이 number0권 있었습니다. 그중에서 학생들이 몇 권을 빌려 갔더니 학급 문고에 남아 있는 책은 number1권 이었습니다. 학생들이 빌려 간 책은 몇 권인지 쓰세요.,number0 - number1,69,0,98 29 ,
+"name0는 연필을 number0자루, 색연필을 number1자루 가지고 있습니다. 연필이 색연필보다 몇 자루 더 많을까요?",abs( number0 - number1 ),15,0,28 13 ,윤기 
+"name0이네 모둠은 줄넘기를 number0회 하였고, name1이네 모둠은 name2이네 모둠보다 number1회 더 적게 돌렸습니다. name3이네 모둠은 훌라후프를 몇 회 돌렸습니까?",number0 - number1,128,0,257 129 ,민영 남준 
+"number0개의 수 number1, number2, number3 중에서 number4보다 큰 수는 몇 개입니까?","number0 - sorted( [ number1 , number4 , number3 ] ).index( number4 ) - 1",2,0,3 84.57 79.27 87.94 79.27 ,
+name0 number0개 중에서 name1가 먹고 number1개를 남겼습니다. name2가 먹은 name3은 몇 개 일까요?,number0 - number1,1,0,5 4 ,유나 빵 
+name0이네 학교의 학생 수는 모두 number0명입니다. 그 중에서 name1이 number1명이name2 name3은 몇 명인지 쓰시오.,number0 - number1,371,0,740 369 ,유정 라면 남학생 여학생 
+name0이가 number0개의 연필이 들어있는 상자에서 number1개의 연필을 사용했습니다. 상자에는 몇 개의 연필이 있습니까?,79.0 - number1,75,0,79 4.0 ,정국 
+"name0이네 집에는 꽃병에 꽂은 꽃이 number0송이 있고, 꽂은 총 number1송이 있습니다. 꽃병에 꽂히지 않은 꽃은 몇 송이 인가요?",number1 - number0,2,0,7 9 ,호석 
+"name0 name1는 number0병보다 number1병 더 적게 있고, name2 name3는 name4 name5보다 number2병 더 적게 있습니다. name6 name7는 몇 병일까요?",number0 - number2 - number2,4,0,6 1 1 ,사과 포도 주스 
+"꽃병에 name0 장미와 name1 장미가 총 number0송이 꽃혀 있습니다. name2 장미가 number1송이 꽃혀 있을때, name3 장미는 몇 송이 꽃혀 있나요?",number0 - number1,6,0,8 2 ,빨간색 흰색 
+"정원에는 number0개의 name0이 있는데, 말가 number1개를 먹었을 때 정원에는 몇 개의 name1자가 있습니까?",8.0 - number1,5,0,8 3.0 ,감 당근 
+"name0이는 씨name1자를 number0개 캤고, name2이는 number1개 캤습니다. 두 사람이 캔 씨name3자의 차는 몇 개입니까?",number1 - number0,1,0,35 36 ,남준 석진 감 
+과수원에 name0가 number0개 있고 천도복숭아가 number1개 있을 때 두 과일 개수의 차이를 구하시오.,abs( number0 - number1 ),92,0,227 319 ,사과 
+"양파 number0개가 있는데, name0이는 이 중에서 number1개를 먹었습니다. 남은 양파는 몇 개일까요?",( number0 - number1 ),16,0,21 5 ,호석 
+"name0는 number0개의 키조개를 발견했습니다. 그는 number1개의 키조개를 버렸을 때, 얼마나 많은 키조개를 갖고 있습니까?",number0 - number1,18,0,35.0 17.0 ,윤기 
+name0드민턴공 number0개를 한 상자에 number1개씩 담았습니다. name1드민턴공을 number2개 잃어버렸다면 name2드민턴공은 총 몇 개 있나요?,number0 - number2,94,0,98 10 4 ,배 배 
+마트에 number0개의 name0맛name1이 있었는데 그 중 number1개를 팔았다면 남은 name2맛name3은 모두 몇 개입니까?,number0 - number1,406,0,925 519 ,사탕 사과 사과맛사탕 
+name0는 샤인머스캣 number0개 중에서 어제는 number1개 먹었고 오늘은 number2개 먹었습니다. 지금 name1가 가지고 있는 샤인머스캣은 몇 개인지 구하시오.,number0 - number1 - number2,35,0,80 29 16 ,유나 
+"어느 과수원에 name0나name1가 number0그루, name2나name3가 number1그루 있습니다. name4나name5는 name6나name7보다 몇 그루 더 많습니까?",number0 - number1,166,0,413 247 ,배 감 무 배 
+"name0는 지우개를 number0개 가지고 있습니다. 그중에서 name1에게 number1개를 주고, name2이에게 number2개를 주었습니다. 남은 지우개는 몇 개일까요?",number0 - number1 - number2,3,0,8 2 3 ,유나 정국 지효 
+동전을 name0이는 number0개 가지고 있고 name1는 name2이보다 number1개 더 적게 가지고 있습니다. name3가 가지고 있는 동전은 몇 개일까요?,number0 - number1,15,0,32 17 ,태형 지효 
+name0이는 number0개의 name1드민턴공이 있고 name2이에게 number1개를 주었습니다. name3이는 몇 개의 name4드민턴공을 갖고 있습니까?,number0 - number1,2,0,7.0 5.0 ,민영 재석 배 배 
+"name0이는 name1을 number0개 가지고 있습니다. name2에게 number1개를 주었고, name3이에게 number2개를 주었습니다. name4이가 가지고 있는 name5은 몇 개입니까?",number0 - number1 - number2,34,0,49 12 3 ,유나 석진 쯔위 탁구공 
+"name0이네 집은 name1를 number0개를 수확하였고, 정호이네 집은 number1개를 수확하였습니다. name2이네 집은 정호이네 집보다 name3를 몇 개 더 수확하였습니까?",number0 - number1,212,0,716 504 ,호석 사과 배 배 
+"정호이는 선물 상자를 포장하는 데 name0 색종이를 number0cm, name1 색종이를 number1cm 사용했습니다. name2 색종이를 name3 색종이보다 몇 cm 더 많이 사용했습니까?",number0 - number1,248,0,434 186 ,빨간색 보라색 
+"공원에는 number0송이의 name0궁화이 있습니다. 정호이가 number1송이의 name1궁화을 꺾어 갔을 때, 공원에는 몇 송이의 name2궁화이 있습니까?",number0 - number1,7,0,9.0 2.0 ,무 
+"name0는 number0개의 자두가 있습니다. name1가 name2에게 number1개의 자두를 줄 때, name3는 몇 개의 자두를 갖고 있습니까?",number0 - number1,23,0,75.0 52.0 ,은지 민하 
+"name0, name1, name2이가 뽑은 수 카드는 각각 number0, number1, number2입니다. 세 사람이 뽑은 수 카드에 적힌 수 중에서 가장 큰수와 가장 작은 수의 차를 구해보시오","max( number0 , number1 , number2 ) - min( number0 , number1 , number2 )",627,0,248 875 536 ,남준 호석 지영 
+name0이는 number0살입니다. name1이는 조카보다 한 살 더 많습니다. 조카의 나이는 몇 살인가요?,number0 - 1,7,0,8 ,지영 
+name0이는 푸딩를 number0개 가지고 있습니다. 그중에서 number1개를 언니에게 주었습니다. name1이에게 남은 푸딩는 몇 개일까요?,number0 - number1,31,0,35 4 ,지영 
+"name0이는 number0개의 카드를 갖고 있습니다. number1개의 카드를 name1이에게 주엇을 때, name2이는 몇 개의 카드를 갖고 있습니까?",number0 - number1,74,0,91.0 17.0 ,민영 건우 
+number0에서 어떤 수를 뺐더니 number1이 되었습니다. 어떤 수는 얼마일까요?,number0 - number1,8,0,15 7 ,
+name0이는 과일 접시에 number0 개의 복숭아를 갖고 있습니다. 그녀는 농장에 가서 number1 개를 최종 얻었습니다. 그녀는 몇개의 복숭아를 더 땃습니까?,number1 - number0,52,0,34.0 86.0 ,지민 
+number0와 어떤 수의 합은 number1입니다. 어떤 수는 얼마일까요?,number1 - number0,4,0,9 13 ,
+"name0구팀에서 가장 키가 큰 선수는 number0cm입니다. 가장 키가 작은 선수는 number1cm더 작을 때, 가장 키가 작은 선수는 몇 cm 입니까?",number0 - number1,68.25,0,77.75 9.5 ,배 배 
+"교실에 남자 어린이가 number0명, 여자 어린이가 number1명 있습니다. 남자 어린이는 여자 어린이보다 몇 명 더 많을까요?",abs( number0 - number1 ),6,0,14 8 ,
+"name0이는 number0개의 국화를 갖고 있습니다. 그는 number1송이를 잃어버렸을 때, 현재 갖고있는 국화는 몇 송이 입니까?",number0 - number1,6,0,25.0 19.0 ,남준 
+"number0개의 밤을 number1개의 서로 다른 봉지에 나누어 담는 경우의 수를 구하여라.(단, 적어도 각 봉지에 number2개씩은 넣는다.)",number0 - number2,86,0,87 2 1 ,
+"name0에 number0명이 타고 있었습니다. 대천역에서 number1명이 내리고, 대구역에서 number2명이 내렸습니다. name1에 남은 사람은 몇 명일가요?",number0 - number1 - number2,2,0,7 2 3 ,기차 
+"name0이네 모둠 학생 number0명이 한 줄로 서 있습니다. name1이는 number1째, name2이는 number2째에 서 있다면 name3이와 name4이 사이에는 몇 명이 서 있을까요?",number2 - number1 - 1,4,0,9 4 9 ,민영 남준 
+name0이는 number0개의 색종이를 샀고 name1이는 name2이에게 number1개의 색종이를 강탈 했습니다. name3이가 가진 종이는 총 몇개입니까?,number0 - number1,12,0,29.0 17.0 ,민영 석진 
+"name0이는 number0원이 있습니다. 개구리를 사기 위해 number1원이 필요하다면, 얼마를 추가로 벌어야 합니까?",number1 - number0,13,0,34.0 47.0 ,석진 
+"name0이는 number0개의 백합을 갖고 있습니다. name1이가 name2이에게 number1개의 백합을 주었을 때, name3이가 가진 백합은 몇 개 입니까?",number0 - number1,79,0,87.0 8.0 ,정국 호석 
+"name0이는 number0마리의 토끼를 갖고 있습니다. 그는 number1마리를 분양했을 때, 몇 마리의 토끼가 남아있습니까?",number0 - number1,7,0,10.0 3.0 ,호석 
+학교 강당에 학생들이 번호 순서대로 서 있습니다. name0이는 number0번이고 name1이는 number1번입니다. 두 학생 사이에 있는 학생들은 몇 명인가요?,number1 - number0 - 1,4,0,27 32 ,지민 지영 
+name0이는 number0개의 name1와 number1개의 name2을 갖고 있습니다. 달팽이가 name3 number2개를 먹었으면 name4이는 총 몇개의 name5을 갖고 있습니까?,number0 - number2,8,0,35.0 30.0 27.0 ,건우 당근 오이 
+"name0이는 number0개의 꽃잎을 가지고 있습니다. 그 중 number1개가 날라갔을 때, 남은 꽃잎의 개수는 몇 개 입니까?",number0 - number1,244,0,356.0 112.0 ,송찬 
+name0이는 지우개 number0개를 양손에 나누어 쥐었습니다. 왼손에 number1개를 쥐었다면 오른손에는 몇 개를 쥐었을까요?,number0 - number1,3,0,8 5 ,건우 
+"꽃병에는 number0송이의 국화가 있었습니다. name0가 처음에 넣어둔 국화는 number1송이 일때, 몇 송이를 잘라냈습니까?",number1 - number0,10,0,6.0 16.0 ,쯔위 
+"name0이네 농장에 오리가 number0마리, 닭이 number1마리 있습니다. 오리가 닭보다 몇 마리 더 많name1 구하세요.",abs( number0 - number1 ),18,0,76 58 ,태형 쯔위 
+"name0는 number0마리의 물고기를 키웁니다. name1에게 number1마리를 주었다면, 총 몇 마리의 물고기가 있습니까?",number0 - number1,15,0,50.0 35.0 ,은지 진범 
+전체가 number0쪽인 문제집을 number1주일 동안 매일 같은 양씩 풀어서 모두 풀려고 합니다. 하루에 풀어야 하는 문제집은 몇 쪽인가요?,number0 / ( 7 * number1 ),13,0,91 1 ,
+"number0학년 학생들은 모두 number1명이고 number2학년 학생들은 number3학년보다 number4명이 더 많다고 하면 number5,number6 학년의 학생수는 모두 몇 명입니까?",number1 + ( number1 + number4 ),1393,0,1 623 2 1 147 1 2 ,
+"number0, number1, number2 중에서 가장 큰 수와 가장 작은 수의 뺄셈을 쓰시오.","max( number0 , number1 , number2 ) - min( number0 , number1 , number2 )",419,0,621 326 745 ,
+"name0관에 name1이 number0개 있고 name2은 name3보다 number1개 더 많이 있습니다. 행사때 name4을 number2개 잃어버렸을 때, name5관에 있는 name6과 name7은 모두 몇 개일까요?",number0 + ( number0 + number2 ) - number2,6,0,3 2 2 ,배구공 축구공 배 체육 배 
+"수영 시합에서 name0이는 앞에서 number0등을 했고, name1는 뒤에서 number1등을 했습니다. name2가 name3이 바로 다음 등수name4 수영 시합에 참가한 사람은 총 몇 명입니까?",number1 + number1,4,0,2 2 ,윤기 지민 라면 
+어떤 수를 number0로 나누었더니 number1가 되었습니다. 어떤 수는 얼마인가요?,number1 * number0,168,0,4 42 ,
+name0에 number0명이 타고 있었습니다. 이번 역에서 number1명이 내리고 number2명이 새로 탔습니다. 지금 name1에 타고 있는 사람은 몇 명입니까?,number0 - number1 + number2,816,0,564 74 21 ,기차 
+name0는 name1를 타고 일정한 빠르기로 number0시간 동안 number1km를 달렸습니다. name2가 한 시간 동안 달린 거리는 몇 km입니까?,number1 / number0,0.7,0,7 4.9 ,윤기 자전거 
+name0이는 number0개의 name1를 갖고있습니다. name2이가 number1개의 name3를 먹었다면 남은 name4의 개수는?,number0 - number1,11,0,55.0 44.0 ,유정 쯔위 무 
+"시장에서 사온 name0을 냉장고에 넣었더니 number0개가 되었습니다. 시장에서 name1 number1개를 사왔을 때, 처음 냉장고에 있던 name2은 몇 개인가요?",number0 - number1,17,0,30 13 ,달걀 
+"수족관에 수컷 돌고래가 number0마리, 암컷 돌고래가 number1마리 있습니다. 암컷 돌고래와 수컷 돌고래의 수의 차는 얼마일까요?",abs( number1 + number1 ),0,0,9 9 ,
+"number0개의 수 number1, number2, number3가 있습니다. 그 중에서 가장 큰 수를 가장 작은 수로 나누었을 때 나머지는 얼마입니까?","max( number1 , number2 , number3 ) - ( min( number1 , number2 , number3 ) * ( max( number1 , number2 , number3 ) // min( number1 , number2 , number3 ) ) )",67,0,3 220 376 507 ,
+name0이는 연필을 한 타 가지고 있습니다. 그 중에서 number0자루를 동생에게 주고 number1자루를 언니에게서 더 받았을 때 name1이에게 남은 연필은 몇 자루인지 구하세요.,12 * 1 - number0 + number1,10,0,5 3 ,민영 
+마당에 있는 닭의 다리 수를 세어 보니 number0개였습니다. 마당에 있는 닭은 몇 마리입니까?,number0 / 2,8,0,24 ,
+"name0, name1, name2이가 식당에 갔습니다. number0명당 number1개의 피자를 먹고 number2개의 name3를 먹었습니다. 총 먹은 음식은 몇 개 입니까?",( number1 + number2 ) * 3.0,54,0,1 8.0 10.0 ,태형 지민 석진 사과 
+name0이는 평균 number0킬로미터로 number1시간 여행했습니다. name1이가 달린 거리는 총 몇 킬로미터 입니까?,10.0 * 10.0,100,0,10 10 ,호석 
+"number0자리 수에서 number1자리 숫자 number2를 number3으로 잘못 보고, number4자리 수에서 number5자리 숫자와 number6자리 숫자를 바꾸어 number7라고 잘못 보았을 때 계산한 number8수의 차는 number9입니다. 이 때, 올바르게 계산한 결과는 name0엇입니까?",3956 - 23,3979,0,4 10 5 0 2 10 1 32 2 3874 ,무 
+name0네 학교 number0학년 선생님과 학생이 name1여행을 가려고 number1대의 number2인승 name2에 나누어 탔습니다. 각 name3에 number3자리씩 비어 있을 경우 number4학년 선생님과 학생은 모두 몇 명인지 쓰세요.,( number2 - number3 ) * number1,558,0,3 18 35 4 3 ,유나 수학 버스 
+어떤 수를 number0번 더했더니 number1가 되었다면 어떤 수는 얼마일까요?,number1 // number0,6,0,2 12 ,
+공책을 name0이는 number0권 가지고 있고 name1이는 name2이보다 number1권 더 많이 가지고 있습니다. name3이가 name4이보다 공책을 number2권 적게 가지고 있다면 name5이가 가지고 있는 공책은 몇 권일까요?,number0 + number1 - number2,45,0,54 17 26 ,민영 태형 호석 
+number0대의 세발name0의 바퀴수를 구하시오.,number0 * 3,162,0,54 ,자전거 
+철사가 number0cm있습니다. 한 도막에 number1m가 되도록 철사를 자르려고 합니다. number2m 철사를 최대 몇 도막까지 만들 수 있는지 쓰시오.,number0 // number2,1,0,99 85 85 ,
+어떤 수에 number0를 곱해야 할 것을 잘못하여 number1를 더했더니 number2였다. 바르게 계산한 값을 구하시오,( number2 - number1 ) * number1,124,0,4 4 35 ,
+"name0이가 내일부터 일주일동안 하루에 number0원씩 계속 저금한다고 합니다. name1이가 number1,number2원을 가지고 있을 때, name2이가 가진 돈은 얼마가 되는지 구하세요.",2500 + 7 * number0,3200,0,100 2 500 ,호석 
+"name0이는 구슬을 number0개 가지고 있고, name1이와 name2이의 구슬은 총  number1개 입니다. name3이가 가지고 있는 구슬은 몇 개일까요?",number1 - number0,2,0,2 4 ,민영 남준 
+"number0, number1, number2 중에서 가장 큰 수와 가장 작은 수의 덧셈을 구하시오.","max( number0 , number1 , number2 ) + min( number0 , number1 , number2 )",784,0,248 875 536 ,
+구슬이 number0개 있었습니다. 그중에서 팔찌를 만드는 데 몇 개를 사용하였더니 number1개가 남았습니다. 팔찌를 만드는 데 사용한 구슬은 몇 개인가요?,( number0 - number1 ),15,0,24 9 ,
+"name0는 number0개의 비디오게임을 갖고 있습니다. name1가 name2이에게 number1개를 주고, 비디오 게임 number2개당 number3분의 시간이 걸릴때, name3는 총 몇분동안 게임을 할 수 있습니까?",5.0 * ( number0 - number1 ),30,0,15.0 9.0 1 5 ,정국 윤기 
+name0이의 나이는 number0살이고 이모의 나이는 name1이의 나이의 number1name2입니다. 이모의 나이는 몇 살일까요?,number0 * number1,32,0,8 4 ,남준 배 배 
+개구리 number0마리가 연못가에 앉아 있었는데 그중에서 number1마리가 도망갔습니다. 연못가에 남은 개구리는 몇 마리일까요?,number1 - number1,0,0,5 5 ,
+"name0이는 number0개의 초코맛name1이 있습니다. name2이가 처음 number1개를 먹고 name3이가 name4이에게 number2개의 초코맛name5을 주었다면, name6이는 몇개의 초코맛name7을 갖고 있습니까?",number0 - number1 + number2,42,0,35.0 12.0 19.0 ,유정 석진 사탕 초코맛사탕 
+"왼쪽부터 name0 공 number0개, name1 공 number1개, name2 공 number2개가 반복되어 놓여 있습니다. number3째 번 공의 색깔을 쓰시오.","( [ ""name2"" ] * number0 + [ ""name0"" ] * number1 + [ ""name1"" ] * number2 ) [ number3 % ( number0 + number1 + number2 ) - number0 ]",빨간색,0,1 2 3 58 ,노란색 빨간색 흰색 
+name0 문제집과 name1 문제집의 name2게 합은 number0kg 입니다. name3 문제집이 number1kgnumber2g일때 name4 문제집은 몇 g 인가요?,number0 * 1000 - number1 * 1000 - number2,1700,0,3 1 300 ,무 국어 영어 
+어떤 수를 number0로 나누었더니 number1가 되었습니다. 어떤 수는 얼마인가요?,number0 * number1,84,0,7 12 ,
+색연필 number0자루를 number1명에게 number2자루씩 나누어 주려고 합니다. 몇 명에게 나누어 줄 수 있습니까?,number0 / number1,6,0,12 1 2 ,
+"name0이는 목걸이와 귀걸이를 각각 number0개씩 갖고 있습니다. number1개당 number2원에 팔 수 있을 때, 총 얼마를 벌 수 있습니까?",number2 * ( number0 + number0 ),36,0,3.0 1 6.0 ,호석 
+number0명의 학생들이 가위바위보를 합니다. 모두 가위를 냈을 때 펼친 손가락은 몇 개일까요?,number0 * 2,10,0,5 ,
+문제집을 number0쪽까지 풀고 남은 문제집을 number1주일 동안 매일 number2쪽씩 풀어서 모두 풀려고 합니다. 문제집은 총 몇 쪽인가요?,number0 + 7 * number1 * number2,91,0,77 1 2 ,
+"number0, number1, number2, number3 중 가장 작은 수와 가장 큰 수의 뺄셈을 구하시오.","max( number0 , number1 , number2 , number3 ) - min( number0 , number1 , number2 , number3 )",767,0,176 785 167 934 ,
+"name0이는 number0일에 한 번 호박을 사러 마트에 가고, name1에 마트를 다녀왔다. name2이가 다음으로 마트에 갈 때는 name3슨 요일인지 구하시오.","[ '월요일' , '화요일' , '수요일' , '목요일' , '금요일' , 'name1' , '일요일' ] [ ( number0 + 5 ) % 7 ]",금요일,0,13 ,태형 토요일 무 
+name0이는 바둑돌을 number0개 가지고 있습니다. 바둑돌을 number1통에 number2개씩 모두 담으려면 통은 몇 개 필요한지 구하세요.,number0 // number2,7,0,70 1 10 ,정국 
+"number0, number1, number2 중 가장 큰 수와 가장 작은 수의 덧셈을 구하시오.","max( number0 , number1 , number2 ) + min( number0 , number1 , number2 )",729,0,208 521 492 ,
+정호이의 나이는 number0살입니다. 정호이 어머니의 나이는 정호이 나이의 number1name0입니다. 정호이 어머니의 나이는 몇살인가요?,number0 * number1,27,0,9 3 ,배 배 
+"number0, number1, number2 중 가장 작은 수와 가장 큰 수의 뺄셈을 구해라.","max( number0 , number1 , number2 ) - min( number0 , number1 , number2 )",284,0,208 521 492 ,
+장미꽃을 name0이는 number0개 접었고 name1이는 name2이보다 number1개 더 많이 접었습니다. 두 사람이 접은 장미꽃은 몇 개일까요?,number0 + number1,230,0,110 120 ,지민 석진 
+"name0이는 한 봉지에 number0개씩 들어 있는 구슬 number1봉지를 똑같이 number2묶음으로 나누어 number3묶음을 가졌습니다. 이 중에서 number4개를 친구에게 주고, 형에게서 number5개를 주었다면 name1이가 가지고 있는 구슬은 몇 개인가요?",number0 * number1 / number2 * number3 - number4 - number5,2911,0,84 72 2 1 62 51 ,민영 
+"name0이의 돼지 저금통에는 천 원짜리 지폐 number0장이 들어있습니다. 백 원짜리 동전 number1개, 십 원짜리 동전 number2개도 들어 있을 때, name1이의 돼지 저금통에 들어 있는 돈은 모두 얼마일까요?",1000 * number0 + 100 * number1 + 10 * number2,5750,0,5 6 15 ,민영 
+양파가 number0개씩 number1묶음과 낱개로 number2개가 있습니다. 양파 number3개를 더 가져왔다면 양파는 모두 몇 개일까요?,number0 * number1 + number2 + number3,54,0,10 2 19 15 ,
+name0는 아빠와 함께 과일 가게에서 name1을 사가지고 와서 number0조각으로 잘라 식구들과 number1조각씩 똑같이 나누어 먹었습니다. 식구들은 총 몇 명인가요?,number0 / number1,32,0,96 3 ,유나 수박 
+number0을 더해야 할 것을 잘못하여 뺐더니 number1이 되었습니다. 바르게 계산하면 얼마인지 쓰시오.,( number1 + number0 ) + number0,1475,0,576 323 ,
