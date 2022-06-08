@@ -1,7 +1,7 @@
-# KMWPS Dataset
+# KMWPS
 Korean-Math-Word-Problem-Solver
 
-Data size : 10,688
+
 
 # Scripts
 ## Teacher Model Training
@@ -36,8 +36,10 @@ python inference.py --model_pth_name <model_path>
 # results : True if pred == true else False
 ```
 
+# Datasets
+Data size : 10,688 문제
 
-#  Question type
+##  Question type
 
 <img width="665" alt="1632473753112" src="https://user-images.githubusercontent.com/67318280/134647544-b576a6d8-f041-4213-a41f-71e23022e854.png">
 
@@ -46,7 +48,7 @@ python inference.py --model_pth_name <model_path>
 <!-- #![except 1](https://user-images.githubusercontent.com/67318280/134647807-cbbecfd6-e7fd-4393-b56d-43ad88ebfb6b.png) -->
 
 
-# Quenstion Augmentation Type
+## Quenstion Augmentation Type
 
 
 ### 1. 질문 인식 능력 검증
