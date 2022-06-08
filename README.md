@@ -1,7 +1,7 @@
 # KMWPS
 Korean-Math-Word-Problem-Solver
 
-
+![ex_screenshot](./img/distillbert_math.gif)
 
 # Scripts
 ## Teacher Model Training
@@ -21,6 +21,7 @@ python main.py -gpu 0 -hl 12 -hs 768 -is 3072 -dh 12 -exp <output_folder_name>
 # is : FFN (intermediate size)
 # dh : number of attention head
 
+# Change config to run iterative distillation
 python main.py --distill -gpu 0 -hl 4 -hs 768 -is 3072 -dh 2 -exp <output_folder_name>
 ```
 
