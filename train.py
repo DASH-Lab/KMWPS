@@ -4,7 +4,8 @@ from utils import *
 from dataloader import *
 from vocab import *
 from tqdm import tqdm
-
+import os
+# from thop import profile
 
 def soft_cross_entropy(predicts, targets):
     student_likelihood = torch.nn.functional.log_softmax(predicts, dim=-1)
@@ -24,7 +25,9 @@ def build_model(config, voc1, voc2, device, teacher=False):
 
     model = TransformerModel(config, voc1, voc2, device, teacher=teacher)
     model = model.to(device)
-    print(f"model parameters: {sum(p.numel() for p in model.parameters() if p.requires_grad)}")
+    # print(f"model parameters: {sum(p.numel() for p in model.parameters() if p.requires_grad)}")
+    print(f"model parameters: {sum(p.numel() for p in model.parameters())}")
+
 
     return model
 
@@ -189,8 +192,8 @@ def train_model(teacher_model, model, train_dataloader, val_dataloader, voc1, vo
                 'voc2': model.voc2,
             }
 
-
-            torch.save(state, f'./models/{config.model_pth_name}')#{epoch + epoch_offset}epoch_first_model.pth')
+            os.makedirs(f'./saved_models/{config.model_pth_name}', exist_ok=True)
+            torch.save(state, f'./saved_models/{config.model_pth_name}/best_model.pth')#{epoch + epoch_offset}epoch_first_model.pth')
         else:
             estop_count += 1
 

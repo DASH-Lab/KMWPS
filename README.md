@@ -1,16 +1,34 @@
-# KMWPS
+# KMWPS Dataset
 Korean-Math-Word-Problem-Solver
 
+Data size : 10,688
+
 # Scripts
-## Training
-### in develop/
+## Teacher Model Training
 ```
-python main.py --mode train --batch-size 32 --epochs 500 --embedding bert --model <model_path>
+# hl : number of head layers
+# hs : heas size
+# is : FFN (intermediate size)
+# dh : number of attention head
+
+python main.py -gpu 0 -hl 12 -hs 768 -is 3072 -dh 12 -exp <output_folder_name>
 ```
+
+## Distillation to Student Model
+```
+# hl : number of head layers
+# hs : heas size
+# is : FFN (intermediate size)
+# dh : number of attention head
+
+python main.py --distill -gpu 0 -hl 4 -hs 768 -is 3072 -dh 2 -exp <output_folder_name>
+```
+
+
+
 ## Inference
-### in develop/
 ```
-python inference.py --model <model_path> --output <output_path>
+python inference.py --model_pth_name <model_path>
 
 # output file format will be:
 # pred : <inference result>
@@ -96,16 +114,34 @@ python inference.py --model <model_path> --output <output_path>
      
 
 # Performance
-Model|Accuracy (%)|Distill Accuracy (%)|Parameters|Latency (s)
-|:---:|:---------:|:------------------:|:--------:|:------:|
-RoBERTa-large|88.57|-|365M|5.1227
-BERT|66.44|68.23|120M|1.3944
-RoBERTa|87.46|88.12|135M|11.9412
-KoBigBird|83.48|83.42|124M|1.8514
-KoBERT|81.94|83.54|102M|2.4598
-KoELECTRA|84.07|85.14|122M|1.7786
-KLUE-RoBERTa-small|74.65|75.69|78M|0.3329
-KLUE-RoBERTa-large|78.28|79.32|347M|3.5587
-KLUE-RoBERTa-base|76.12|78.09|121M|1.0442
-DistilRoBERTa|77.98|78.19|92M|2.8494
-DistilKoBERT|72.83|74.8|38M|1.5282
+Model|Accuracy (%)|Parameters reduction (%)|Latency reduction(%)
+|:---:|:---------:|:--------:|:------:|
+KoBERT-base (Teacher)|89.0|-|-|
+KoBERT-L6-H12|87.2|29.4|9.1
+KoBERT-L4-H12|86.6|39.1|12.4
+KoBERT-L1-H12|85.4|53.8|19.0
+KoBERT-L6-H12 (Distill)|89.2|29.4|9.2
+KoBERT-L4-H12 (Distill)|88.6|39.1|12.4
+KoBERT-L1-H12 (Distill)|88.4|53.8|18.9
+KoBERT-L4-H8|87.2|39.1|15.7
+KoBERT-L4-H4|87.4|39.1|19.9
+KoBERT-L4-H2|86.4|39.1|19.3
+KoBERT-L4-H8 (Distill)|87.2|39.1|15.6
+KoBERT-L4-H4 (Distill)|87.4|39.1|20.0
+KoBERT-L4-H2 (Distill)|86.4|39.1|19.2
+KoBERT-L1-H12-Hs252-FFN1024 (Distill)|88.6|81.1|24.8
+
+
+<!-- KoBERT-L6-H12-Hs252-FFN1024 (Distill)|89.2|78.4|
+KoBERT-L1-H12-Hs252-FFN1024 (Distill)|88.4|81.1| -->
+<!-- KoBERT-L8-H12|-|19.6|1.3944 -->
+<!-- 75.2
+78.4
+79.6
+81.1 -->
+
+<!-- [12.46, 11.32, 10.92, 10.09,
+10.50, 9.98, 10.06,
+
+9.37
+] -->

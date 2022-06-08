@@ -52,7 +52,7 @@ class BertEncoder(nn.Module):
         else: # student
             self.bert_layer = TinyBertForPreTraining(BertConfig(num_hidden_layers=cfg.num_hidden_layers, 
                                                             hidden_size=cfg.hidden_size,intermediate_size=cfg.intermediate_size, 
-                                                            num_attention_heads=cfg.heads)).from_pretrained(bert_model)
+                                                            num_attention_heads=cfg.heads))#.from_pretrained(bert_model)
 
         #BertConfig(num_hidden_layers=4, hidden_size=252, intermediate_size=786)
         #BertConfig(num_hidden_layers=12, hidden_size=768, intermediate_size=3072)

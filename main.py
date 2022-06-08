@@ -62,14 +62,14 @@ class config:
 
     # -- else --#
     val_outputs = False  # Show full validation outputs
-    freeze_emb = True
+    freeze_emb = False
     interval   = 1      # evaluation interval epoch
     exp        = args.exp # experiments name
     # -- encoder -- #
     num_hidden_layers = args.hidden_layer 
     hidden_size       = args.hidden_size #768#252
     intermediate_size = args.intermediate_size #3072#786
-    model_pth_name = f'n{num_hidden_layers}_h{hidden_size}_i_{intermediate_size}_head_{heads}_{emb_name.split("/")[1]}_exp-{exp}.pth'
+    model_pth_name = f'n{num_hidden_layers}_h{hidden_size}_i_{intermediate_size}_head_{heads}_{emb_name.split("/")[1]}_exp-{exp}'
 
     # -- related distill -- #
     distill = args.distill

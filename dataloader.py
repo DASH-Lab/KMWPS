@@ -78,8 +78,8 @@ def load_data(config):
     '''
     data_path = "./"
     print("Getting test.csv & tp...")
-    test, test_tp = start("../data/test_pp.csv")
-    train, train_tp = start("../data/train_pp.csv")
+    test, test_tp = start("./data/test_pp.csv")
+    train, train_tp = start("./data/train_pp.csv")
     #######3
     # test = pd.read_csv('./final_v3.csv')
     # train = pd.read_csv('./final_train_v3.csv')
