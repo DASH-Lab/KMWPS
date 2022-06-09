@@ -29,12 +29,8 @@ python main.py --distill -gpu 0 -hl 4 -hs 768 -is 3072 -dh 2 -exp <output_folder
 
 ## Inference
 ```
-python inference.py --model_pth_name <model_path>
+python inference.py --gpu 0 --model_pth_name <model_path>
 
-# output file format will be:
-# pred : <inference result>
-# true : <ground truth equation>
-# results : True if pred == true else False
 ```
 
 # Datasets
@@ -120,31 +116,19 @@ Data size : 10,688 문제
 Model|Accuracy (%)|Parameters reduction (%)|Latency reduction(%)
 |:---:|:---------:|:--------:|:------:|
 KoBERT-base (Teacher)|89.0|-|-|
-KoBERT-L6-H12|87.2|29.4|9.1
-KoBERT-L4-H12|86.6|39.1|12.4
-KoBERT-L1-H12|85.4|53.8|19.0
-KoBERT-L6-H12 (Distill)|89.2|29.4|9.2
-KoBERT-L4-H12 (Distill)|88.6|39.1|12.4
-KoBERT-L1-H12 (Distill)|88.4|53.8|18.9
-KoBERT-L4-H8|87.2|39.1|15.7
-KoBERT-L4-H4|87.4|39.1|19.9|
-KoBERT-L4-H2|86.4|39.1|19.3
-KoBERT-L4-H8 (Distill)|88.2|39.1|15.6
-KoBERT-L4-H4 (Distill)|88.1|39.1|20.0
-KoBERT-L4-H2 (Distill)|87.9|39.1|19.2
-KoBERT-L1-H12-Hs252-FFN1024 (Distill)|87.6|81.1|24.8
+KoBERT-L6-H12|87.2|29.4|11.5
+KoBERT-L4-H12|86.6|39.1|17.0
+KoBERT-L1-H12|85.4|53.8|21.3
+KoBERT-L6-H12 (Distill)|89.2|29.4|11.3
+KoBERT-L4-H12 (Distill)|88.6|39.1|17.3
+KoBERT-L1-H12 (Distill)|88.4|53.8|22.1
+KoBERT-L8-H12-Hs252-FFN1024|87.8|77.4|16.0
+KoBERT-L6-H12-Hs252-FFN1024|87.1|78.4|18.9
+KoBERT-L4-H12-Hs252-FFN1024|86.4|79.5|23.0
+KoBERT-L1-H12-Hs252-FFN1024|85.1|81.1|27.0
+KoBERT-L8-H12-Hs252-FFN1024 (Distill)|89.1|77.4|16.0
+KoBERT-L6-H12-Hs252-FFN1024 (Distill)|88.7|78.4|18.8
+KoBERT-L4-H12-Hs252-FFN1024 (Distill)|88.2|79.5|23.1
+KoBERT-L1-H12-Hs252-FFN1024 (Distill)|87.8|81.1|27.2
 
 
-<!-- KoBERT-L6-H12-Hs252-FFN1024 (Distill)|89.2|78.4|
-KoBERT-L1-H12-Hs252-FFN1024 (Distill)|88.4|81.1| -->
-<!-- KoBERT-L8-H12|-|19.6|1.3944 -->
-<!-- 75.2
-78.4
-79.6
-81.1 -->
-
-<!-- [12.46, 11.32, 10.92, 10.09,
-10.50, 9.98, 10.06,
-
-9.37
-] -->
