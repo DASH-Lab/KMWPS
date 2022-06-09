@@ -89,7 +89,6 @@ def train_model(teacher_model, model, train_dataloader, val_dataloader, voc1, vo
             sent2s = sents_to_idx(voc2, data['eqn'], config.max_length, flag=1)
 
             sent1_var, sent2_var, input_len1, input_len2 = process_batch(sent1s, sent2s, voc1, voc2, device)
-
             nums = data['nums']
             ans = data['ans']
 

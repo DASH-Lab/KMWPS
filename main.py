@@ -62,7 +62,7 @@ class config:
 
     # -- else --#
     val_outputs = False  # Show full validation outputs
-    freeze_emb = False
+    freeze_emb = True
     interval   = 1      # evaluation interval epoch
     exp        = args.exp # experiments name
     # -- encoder -- #

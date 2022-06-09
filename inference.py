@@ -36,7 +36,7 @@ class config:
     d_model = 768
     d_ff = 1024  # 256
     # -- #
-    batch_size =64 # 16
+    batch_size =1 # 16
     embedding = 'bert' # ['bert','roberta']
     emb_name = 'monologg/kobert'#'bert-base-uncased' #'monologg/distilkobert'#'HanBert-54kN-torch'#'skt/kobert-base-v1'#'monologg/kobigbird-bert-base'  # 'bert-base-uncased' # ['bert-base-uncased', 'roberta-base','roberta-large]
     mawps_vocab = True
