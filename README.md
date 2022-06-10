@@ -30,7 +30,6 @@ python main.py --distill -gpu 0 -hl 4 -hs 768 -is 3072 -dh 2 -exp <output_folder
 ## Inference
 ```
 python inference.py --gpu 0 -hl <hidden_layer_size> -hs <hidden_size> -is <FFN_size> -dh <number_of_head> --model_pth_name <model_path>
-
 ```
 
 # Web Demo
@@ -39,7 +38,6 @@ python inference.py --gpu 0 -hl <hidden_layer_size> -hs <hidden_size> -is <FFN_s
 # connect to local server : ex) https://?????.gradio.app
 
 python web_demo.py -hl 4 -hs 252 -is 1024 -dh 12 --model_pth_name <model_path>
-
 ```
 ![ex_screenshot](./img/demo2.gif)
 <!-- <iframe id="video" width="320" height="320" src="./img/demo.mp4" frameborder="0">
@@ -47,9 +45,7 @@ python web_demo.py -hl 4 -hs 252 -is 1024 -dh 12 --model_pth_name <model_path>
 
 # Application Demo
 ```
-
 python application_demo.py -hl 4 -hs 252 -is 1024 -dh 12 --model_pth_name <model_path>
-
 ```
 ![ex_screenshot](./img/application.gif)
 
