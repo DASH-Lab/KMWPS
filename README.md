@@ -45,6 +45,7 @@ python web_demo.py -hl 4 -hs 252 -is 1024 -dh 12 --model_pth_name <model_path>
 
 # Application Demo
 ```
+# comming soon!
 python application_demo.py -hl 4 -hs 252 -is 1024 -dh 12 --model_pth_name <model_path>
 ```
 ![ex_screenshot](./img/application.gif)
