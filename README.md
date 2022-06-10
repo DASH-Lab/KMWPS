@@ -33,7 +33,7 @@ python inference.py --gpu 0 -hl <hidden_layer_size> -hs <hidden_size> -is <FFN_s
 
 ```
 
-# Demo
+# Web Demo
 ```
 # pip install gradio 
 # connect to local server : ex) https://?????.gradio.app
@@ -45,7 +45,13 @@ python web_demo.py -hl 4 -hs 252 -is 1024 -dh 12 --model_pth_name <model_path>
 <!-- <iframe id="video" width="320" height="320" src="./img/demo.mp4" frameborder="0">
 </iframe> -->
 
+# Application Demo
+```
 
+python application_demo.py -hl 4 -hs 252 -is 1024 -dh 12 --model_pth_name <model_path>
+
+```
+![ex_screenshot](./img/application.gif)
 
 # Datasets
 Data size : 10,688 문제
