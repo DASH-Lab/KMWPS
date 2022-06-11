@@ -6,8 +6,8 @@ Korean-Math-Word-Problem-Solver
 # Scripts
 ## Teacher Model Training
 ```
-# hl : number of head layers
-# hs : heas size
+# hl : number of hidden layers
+# hs : hidden size
 # is : FFN (intermediate size)
 # dh : number of attention head
 
@@ -16,8 +16,8 @@ python main.py -gpu 0 -hl 12 -hs 768 -is 3072 -dh 12 -exp <output_folder_name>
 
 ## Distillation to Student Model
 ```
-# hl : number of head layers
-# hs : heas size
+# hl : number of hidden layers
+# hs : hidden size
 # is : FFN (intermediate size)
 # dh : number of attention head
 
